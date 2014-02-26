@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F722CBA218BD8E8D00E50D3B /* family-ice-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */; };
+		F722CBA318BD8E8D00E50D3B /* family-ice-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */; };
+		F722CBA418BD8E8D00E50D3B /* family-ice-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */; };
+		F722CBA518BD8E8D00E50D3B /* family-ice-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */; };
+		F722CBA618BD8E8D00E50D3B /* family-ice-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */; };
+		F722CBA718BD8E8D00E50D3B /* family-ice-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */; };
+		F722CBA818BD8E8D00E50D3B /* family-ice-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */; };
+		F722CBA918BD8E8D00E50D3B /* family-ice-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */; };
+		F722CBAA18BD8E8D00E50D3B /* family-ice-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */; };
+		F722CBAB18BD8E8D00E50D3B /* family-ice-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */; };
+		F722CBAC18BD8E8D00E50D3B /* family-ice-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */; };
+		F722CBAD18BD8E8D00E50D3B /* family-ice-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */; };
+		F722CBAE18BD8E8D00E50D3B /* family-ice-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */; };
+		F722CBAF18BD8E8D00E50D3B /* family-ice-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */; };
+		F722CBB018BD8E8D00E50D3B /* family-ice-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */; };
+		F722CBB118BD8E8D00E50D3B /* family-ice-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */; };
+		F722CBB218BD8E8D00E50D3B /* family-ice-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */; };
+		F722CBB318BD8E8D00E50D3B /* family-ice-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */; };
+		F722CBB418BD8E8D00E50D3B /* family-ice-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */; };
+		F722CBB518BD8E8D00E50D3B /* family-ice-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */; };
+		F722CBB618BD8E8D00E50D3B /* family-ice-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */; };
+		F722CBB718BD8E8D00E50D3B /* family-ice-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */; };
+		F722CBB818BD8E8D00E50D3B /* 711-icecream-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */; };
+		F722CBB918BD8E8D00E50D3B /* 711-icecream-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */; };
+		F722CBBA18BD8E8D00E50D3B /* 711-icecream-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */; };
+		F722CBBB18BD8E8D00E50D3B /* 711-icecream-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */; };
+		F722CBBC18BD8E8D00E50D3B /* 711-icecream-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */; };
+		F722CBBD18BD8E8D00E50D3B /* 711-icecream-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */; };
+		F722CBBE18BD8E8D00E50D3B /* 711-icecream-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */; };
+		F722CBBF18BD8E8D00E50D3B /* 711-icecream-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */; };
+		F722CBC018BD8E8D00E50D3B /* 711-icecream-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */; };
+		F722CBC118BD8E8D00E50D3B /* 711-icecream-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */; };
+		F722CBC218BD8E8D00E50D3B /* 711-icecream-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */; };
+		F722CBC318BD8E8D00E50D3B /* 711-icecream-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */; };
+		F722CBC418BD8E8D00E50D3B /* 711-icecream-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */; };
+		F722CBC518BD8E8D00E50D3B /* 711-icecream-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */; };
+		F722CBC618BD8E8D00E50D3B /* 711-icecream-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */; };
+		F722CBC718BD8E8D00E50D3B /* 711-icecream-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */; };
+		F722CBC818BD8E8D00E50D3B /* 711-icecream-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */; };
+		F722CBC918BD8E8D00E50D3B /* 711-icecream-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */; };
+		F722CBCA18BD8E8D00E50D3B /* 711-icecream-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */; };
+		F722CBCB18BD8E8D00E50D3B /* 711-icecream-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */; };
+		F722CBCC18BD8E8D00E50D3B /* 711-icecream-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */; };
+		F722CBCD18BD8E8D00E50D3B /* 711-icecream-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */; };
+		F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CBCF18BD91B200E50D3B /* IceCreamReader.m */; };
+		F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */; };
+		F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */; };
+		F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */; };
+		F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC1118BE102C00E50D3B /* BaseViewController.m */; };
+		F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B718BCA80D00FA6140 /* Foundation.framework */; };
+		F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B918BCA80D00FA6140 /* CoreGraphics.framework */; };
+		F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689BB18BCA80D00FA6140 /* UIKit.framework */; };
+		F76689C218BCA80D00FA6140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76689C018BCA80D00FA6140 /* InfoPlist.strings */; };
+		F76689C418BCA80D00FA6140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689C318BCA80D00FA6140 /* main.m */; };
+		F76689C818BCA80D00FA6140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689C718BCA80D00FA6140 /* AppDelegate.m */; };
+		F76689CB18BCA80D00FA6140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76689C918BCA80D00FA6140 /* Main.storyboard */; };
+		F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689CD18BCA80D00FA6140 /* ViewController.m */; };
+		F76689D018BCA80D00FA6140 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76689CF18BCA80D00FA6140 /* Images.xcassets */; };
+		F76689D718BCA80D00FA6140 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689D618BCA80D00FA6140 /* XCTest.framework */; };
+		F76689D818BCA80D00FA6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B718BCA80D00FA6140 /* Foundation.framework */; };
+		F76689D918BCA80D00FA6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689BB18BCA80D00FA6140 /* UIKit.framework */; };
+		F76689E118BCA80D00FA6140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76689DF18BCA80D00FA6140 /* InfoPlist.strings */; };
+		F76689E318BCA80D00FA6140 /* TaiwenIceCreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689E218BCA80D00FA6140 /* TaiwenIceCreamTests.m */; };
+		F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */; };
+		F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689EF18BCA92300FA6140 /* MapKit.framework */; };
+		F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689F118BCA94800FA6140 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76689DA18BCA80D00FA6140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76689AC18BCA80D00FA6140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76689B318BCA80D00FA6140;
+			remoteInfo = TaiwenIceCream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-01.txt"; sourceTree = "<group>"; };
+		F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-02.txt"; sourceTree = "<group>"; };
+		F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-03.txt"; sourceTree = "<group>"; };
+		F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-04.txt"; sourceTree = "<group>"; };
+		F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-05.txt"; sourceTree = "<group>"; };
+		F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-06.txt"; sourceTree = "<group>"; };
+		F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-07.txt"; sourceTree = "<group>"; };
+		F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-08.txt"; sourceTree = "<group>"; };
+		F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-09.txt"; sourceTree = "<group>"; };
+		F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-10.txt"; sourceTree = "<group>"; };
+		F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-11.txt"; sourceTree = "<group>"; };
+		F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-12.txt"; sourceTree = "<group>"; };
+		F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-13.txt"; sourceTree = "<group>"; };
+		F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-14.txt"; sourceTree = "<group>"; };
+		F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-15.txt"; sourceTree = "<group>"; };
+		F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-16.txt"; sourceTree = "<group>"; };
+		F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-17.txt"; sourceTree = "<group>"; };
+		F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-18.txt"; sourceTree = "<group>"; };
+		F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-19.txt"; sourceTree = "<group>"; };
+		F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-20.txt"; sourceTree = "<group>"; };
+		F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-21.txt"; sourceTree = "<group>"; };
+		F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-22.txt"; sourceTree = "<group>"; };
+		F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-01.txt"; sourceTree = "<group>"; };
+		F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-02.txt"; sourceTree = "<group>"; };
+		F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-03.txt"; sourceTree = "<group>"; };
+		F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-04.txt"; sourceTree = "<group>"; };
+		F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-05.txt"; sourceTree = "<group>"; };
+		F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-06.txt"; sourceTree = "<group>"; };
+		F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-07.txt"; sourceTree = "<group>"; };
+		F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-08.txt"; sourceTree = "<group>"; };
+		F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-09.txt"; sourceTree = "<group>"; };
+		F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-10.txt"; sourceTree = "<group>"; };
+		F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-11.txt"; sourceTree = "<group>"; };
+		F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-12.txt"; sourceTree = "<group>"; };
+		F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-13.txt"; sourceTree = "<group>"; };
+		F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-14.txt"; sourceTree = "<group>"; };
+		F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-15.txt"; sourceTree = "<group>"; };
+		F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-16.txt"; sourceTree = "<group>"; };
+		F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-17.txt"; sourceTree = "<group>"; };
+		F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-18.txt"; sourceTree = "<group>"; };
+		F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-19.txt"; sourceTree = "<group>"; };
+		F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-20.txt"; sourceTree = "<group>"; };
+		F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-21.txt"; sourceTree = "<group>"; };
+		F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-22.txt"; sourceTree = "<group>"; };
+		F722CBCE18BD91B200E50D3B /* IceCreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCreamReader.h; sourceTree = "<group>"; };
+		F722CBCF18BD91B200E50D3B /* IceCreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCreamReader.m; sourceTree = "<group>"; };
+		F722CC0718BE0F3E00E50D3B /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		F722CC0918BE0F3E00E50D3B /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSettingViewController.h; sourceTree = "<group>"; };
+		F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSettingViewController.m; sourceTree = "<group>"; };
+		F722CC1018BE102C00E50D3B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F722CC1118BE102C00E50D3B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F76689B418BCA80D00FA6140 /* TaiwenIceCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwenIceCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76689B718BCA80D00FA6140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F76689B918BCA80D00FA6140 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F76689BB18BCA80D00FA6140 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F76689BF18BCA80D00FA6140 /* TaiwenIceCream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaiwenIceCream-Info.plist"; sourceTree = "<group>"; };
+		F76689C118BCA80D00FA6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F76689C318BCA80D00FA6140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76689C518BCA80D00FA6140 /* TaiwenIceCream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaiwenIceCream-Prefix.pch"; sourceTree = "<group>"; };
+		F76689C618BCA80D00FA6140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F76689C718BCA80D00FA6140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F76689CA18BCA80D00FA6140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76689CC18BCA80D00FA6140 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F76689CD18BCA80D00FA6140 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F76689CF18BCA80D00FA6140 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F76689D518BCA80D00FA6140 /* TaiwenIceCreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwenIceCreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76689D618BCA80D00FA6140 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F76689DE18BCA80D00FA6140 /* TaiwenIceCreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaiwenIceCreamTests-Info.plist"; sourceTree = "<group>"; };
+		F76689E018BCA80D00FA6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F76689E218BCA80D00FA6140 /* TaiwenIceCreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaiwenIceCreamTests.m; sourceTree = "<group>"; };
+		F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressToCoordinate.h; sourceTree = "<group>"; };
+		F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressToCoordinate.m; sourceTree = "<group>"; };
+		F76689EF18BCA92300FA6140 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F76689F118BCA94800FA6140 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76689B118BCA80D00FA6140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */,
+				F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */,
+				F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */,
+				F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */,
+				F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76689D218BCA80D00FA6140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76689D718BCA80D00FA6140 /* XCTest.framework in Frameworks */,
+				F76689D918BCA80D00FA6140 /* UIKit.framework in Frameworks */,
+				F76689D818BCA80D00FA6140 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F722CB7418BD8E8D00E50D3B /* family-ice */ = {
+			isa = PBXGroup;
+			children = (
+				F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */,
+				F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */,
+				F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */,
+				F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */,
+				F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */,
+				F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */,
+				F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */,
+				F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */,
+				F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */,
+				F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */,
+				F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */,
+				F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */,
+				F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */,
+				F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */,
+				F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */,
+				F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */,
+				F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */,
+				F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */,
+				F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */,
+				F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */,
+				F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */,
+				F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */,
+			);
+			path = "family-ice";
+			sourceTree = "<group>";
+		};
+		F722CB8B18BD8E8D00E50D3B /* 7-11-ice */ = {
+			isa = PBXGroup;
+			children = (
+				F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */,
+				F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */,
+				F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */,
+				F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */,
+				F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */,
+				F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */,
+				F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */,
+				F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */,
+				F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */,
+				F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */,
+				F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */,
+				F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */,
+				F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */,
+				F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */,
+				F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */,
+				F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */,
+				F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */,
+				F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */,
+				F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */,
+				F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */,
+				F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */,
+				F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */,
+			);
+			path = "7-11-ice";
+			sourceTree = "<group>";
+		};
+		F722CC0618BE0F3E00E50D3B /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				F722CC0718BE0F3E00E50D3B /* JASidePanelController.h */,
+				F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */,
+				F722CC0918BE0F3E00E50D3B /* UIViewController+JASidePanel.h */,
+				F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */,
+			);
+			name = JASidePanels;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F76689AB18BCA80D00FA6140 = {
+			isa = PBXGroup;
+			children = (
+				F76689BD18BCA80D00FA6140 /* TaiwenIceCream */,
+				F76689DC18BCA80D00FA6140 /* TaiwenIceCreamTests */,
+				F76689B618BCA80D00FA6140 /* Frameworks */,
+				F76689B518BCA80D00FA6140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76689B518BCA80D00FA6140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76689B418BCA80D00FA6140 /* TaiwenIceCream.app */,
+				F76689D518BCA80D00FA6140 /* TaiwenIceCreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76689B618BCA80D00FA6140 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76689F118BCA94800FA6140 /* CoreLocation.framework */,
+				F76689EF18BCA92300FA6140 /* MapKit.framework */,
+				F76689B718BCA80D00FA6140 /* Foundation.framework */,
+				F76689B918BCA80D00FA6140 /* CoreGraphics.framework */,
+				F76689BB18BCA80D00FA6140 /* UIKit.framework */,
+				F76689D618BCA80D00FA6140 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F76689BD18BCA80D00FA6140 /* TaiwenIceCream */ = {
+			isa = PBXGroup;
+			children = (
+				F722CC0618BE0F3E00E50D3B /* JASidePanels */,
+				F722CB7418BD8E8D00E50D3B /* family-ice */,
+				F722CB8B18BD8E8D00E50D3B /* 7-11-ice */,
+				F76689C618BCA80D00FA6140 /* AppDelegate.h */,
+				F76689C718BCA80D00FA6140 /* AppDelegate.m */,
+				F76689C918BCA80D00FA6140 /* Main.storyboard */,
+				F722CC1018BE102C00E50D3B /* BaseViewController.h */,
+				F722CC1118BE102C00E50D3B /* BaseViewController.m */,
+				F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */,
+				F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */,
+				F76689CC18BCA80D00FA6140 /* ViewController.h */,
+				F76689CD18BCA80D00FA6140 /* ViewController.m */,
+				F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */,
+				F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */,
+				F76689CF18BCA80D00FA6140 /* Images.xcassets */,
+				F76689BE18BCA80D00FA6140 /* Supporting Files */,
+				F722CBCE18BD91B200E50D3B /* IceCreamReader.h */,
+				F722CBCF18BD91B200E50D3B /* IceCreamReader.m */,
+			);
+			path = TaiwenIceCream;
+			sourceTree = "<group>";
+		};
+		F76689BE18BCA80D00FA6140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76689BF18BCA80D00FA6140 /* TaiwenIceCream-Info.plist */,
+				F76689C018BCA80D00FA6140 /* InfoPlist.strings */,
+				F76689C318BCA80D00FA6140 /* main.m */,
+				F76689C518BCA80D00FA6140 /* TaiwenIceCream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F76689DC18BCA80D00FA6140 /* TaiwenIceCreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76689E218BCA80D00FA6140 /* TaiwenIceCreamTests.m */,
+				F76689DD18BCA80D00FA6140 /* Supporting Files */,
+			);
+			path = TaiwenIceCreamTests;
+			sourceTree = "<group>";
+		};
+		F76689DD18BCA80D00FA6140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76689DE18BCA80D00FA6140 /* TaiwenIceCreamTests-Info.plist */,
+				F76689DF18BCA80D00FA6140 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76689B318BCA80D00FA6140 /* TaiwenIceCream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76689E618BCA80D00FA6140 /* Build configuration list for PBXNativeTarget "TaiwenIceCream" */;
+			buildPhases = (
+				F76689B018BCA80D00FA6140 /* Sources */,
+				F76689B118BCA80D00FA6140 /* Frameworks */,
+				F76689B218BCA80D00FA6140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaiwenIceCream;
+			productName = TaiwenIceCream;
+			productReference = F76689B418BCA80D00FA6140 /* TaiwenIceCream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76689D418BCA80D00FA6140 /* TaiwenIceCreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76689E918BCA80D00FA6140 /* Build configuration list for PBXNativeTarget "TaiwenIceCreamTests" */;
+			buildPhases = (
+				F76689D118BCA80D00FA6140 /* Sources */,
+				F76689D218BCA80D00FA6140 /* Frameworks */,
+				F76689D318BCA80D00FA6140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76689DB18BCA80D00FA6140 /* PBXTargetDependency */,
+			);
+			name = TaiwenIceCreamTests;
+			productName = TaiwenIceCreamTests;
+			productReference = F76689D518BCA80D00FA6140 /* TaiwenIceCreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76689AC18BCA80D00FA6140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Tseng";
+				TargetAttributes = {
+					F76689D418BCA80D00FA6140 = {
+						TestTargetID = F76689B318BCA80D00FA6140;
+					};
+				};
+			};
+			buildConfigurationList = F76689AF18BCA80D00FA6140 /* Build configuration list for PBXProject "TaiwenIceCream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76689AB18BCA80D00FA6140;
+			productRefGroup = F76689B518BCA80D00FA6140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76689B318BCA80D00FA6140 /* TaiwenIceCream */,
+				F76689D418BCA80D00FA6140 /* TaiwenIceCreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76689B218BCA80D00FA6140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F722CBAE18BD8E8D00E50D3B /* family-ice-13.txt in Resources */,
+				F76689D018BCA80D00FA6140 /* Images.xcassets in Resources */,
+				F722CBB518BD8E8D00E50D3B /* family-ice-20.txt in Resources */,
+				F722CBB318BD8E8D00E50D3B /* family-ice-18.txt in Resources */,
+				F722CBB118BD8E8D00E50D3B /* family-ice-16.txt in Resources */,
+				F722CBAB18BD8E8D00E50D3B /* family-ice-10.txt in Resources */,
+				F722CBC718BD8E8D00E50D3B /* 711-icecream-16.txt in Resources */,
+				F722CBC118BD8E8D00E50D3B /* 711-icecream-10.txt in Resources */,
+				F722CBBB18BD8E8D00E50D3B /* 711-icecream-04.txt in Resources */,
+				F722CBAC18BD8E8D00E50D3B /* family-ice-11.txt in Resources */,
+				F722CBB418BD8E8D00E50D3B /* family-ice-19.txt in Resources */,
+				F722CBBA18BD8E8D00E50D3B /* 711-icecream-03.txt in Resources */,
+				F722CBC618BD8E8D00E50D3B /* 711-icecream-15.txt in Resources */,
+				F722CBA818BD8E8D00E50D3B /* family-ice-07.txt in Resources */,
+				F722CBA618BD8E8D00E50D3B /* family-ice-05.txt in Resources */,
+				F722CBA918BD8E8D00E50D3B /* family-ice-08.txt in Resources */,
+				F722CBA318BD8E8D00E50D3B /* family-ice-02.txt in Resources */,
+				F722CBC418BD8E8D00E50D3B /* 711-icecream-13.txt in Resources */,
+				F722CBCC18BD8E8D00E50D3B /* 711-icecream-21.txt in Resources */,
+				F722CBB018BD8E8D00E50D3B /* family-ice-15.txt in Resources */,
+				F722CBBF18BD8E8D00E50D3B /* 711-icecream-08.txt in Resources */,
+				F722CBC518BD8E8D00E50D3B /* 711-icecream-14.txt in Resources */,
+				F722CBBD18BD8E8D00E50D3B /* 711-icecream-06.txt in Resources */,
+				F722CBAF18BD8E8D00E50D3B /* family-ice-14.txt in Resources */,
+				F722CBC918BD8E8D00E50D3B /* 711-icecream-18.txt in Resources */,
+				F722CBAA18BD8E8D00E50D3B /* family-ice-09.txt in Resources */,
+				F722CBB918BD8E8D00E50D3B /* 711-icecream-02.txt in Resources */,
+				F722CBBC18BD8E8D00E50D3B /* 711-icecream-05.txt in Resources */,
+				F722CBBE18BD8E8D00E50D3B /* 711-icecream-07.txt in Resources */,
+				F722CBC818BD8E8D00E50D3B /* 711-icecream-17.txt in Resources */,
+				F722CBC318BD8E8D00E50D3B /* 711-icecream-12.txt in Resources */,
+				F722CBA218BD8E8D00E50D3B /* family-ice-01.txt in Resources */,
+				F722CBB718BD8E8D00E50D3B /* family-ice-22.txt in Resources */,
+				F76689C218BCA80D00FA6140 /* InfoPlist.strings in Resources */,
+				F722CBCD18BD8E8D00E50D3B /* 711-icecream-22.txt in Resources */,
+				F722CBB818BD8E8D00E50D3B /* 711-icecream-01.txt in Resources */,
+				F722CBC218BD8E8D00E50D3B /* 711-icecream-11.txt in Resources */,
+				F722CBA718BD8E8D00E50D3B /* family-ice-06.txt in Resources */,
+				F722CBAD18BD8E8D00E50D3B /* family-ice-12.txt in Resources */,
+				F722CBC018BD8E8D00E50D3B /* 711-icecream-09.txt in Resources */,
+				F722CBB218BD8E8D00E50D3B /* family-ice-17.txt in Resources */,
+				F722CBCB18BD8E8D00E50D3B /* 711-icecream-20.txt in Resources */,
+				F76689CB18BCA80D00FA6140 /* Main.storyboard in Resources */,
+				F722CBA518BD8E8D00E50D3B /* family-ice-04.txt in Resources */,
+				F722CBA418BD8E8D00E50D3B /* family-ice-03.txt in Resources */,
+				F722CBB618BD8E8D00E50D3B /* family-ice-21.txt in Resources */,
+				F722CBCA18BD8E8D00E50D3B /* 711-icecream-19.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76689D318BCA80D00FA6140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76689E118BCA80D00FA6140 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76689B018BCA80D00FA6140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */,
+				F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */,
+				F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */,
+				F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */,
+				F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */,
+				F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */,
+				F76689C818BCA80D00FA6140 /* AppDelegate.m in Sources */,
+				F76689C418BCA80D00FA6140 /* main.m in Sources */,
+				F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76689D118BCA80D00FA6140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76689E318BCA80D00FA6140 /* TaiwenIceCreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76689DB18BCA80D00FA6140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76689B318BCA80D00FA6140 /* TaiwenIceCream */;
+			targetProxy = F76689DA18BCA80D00FA6140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76689C018BCA80D00FA6140 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76689C118BCA80D00FA6140 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F76689C918BCA80D00FA6140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76689CA18BCA80D00FA6140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76689DF18BCA80D00FA6140 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76689E018BCA80D00FA6140 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76689E418BCA80D00FA6140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F76689E518BCA80D00FA6140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76689E718BCA80D00FA6140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F76689E818BCA80D00FA6140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F76689EA18BCA80D00FA6140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaiwenIceCream.app/TaiwenIceCream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaiwenIceCreamTests/TaiwenIceCreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F76689EB18BCA80D00FA6140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaiwenIceCream.app/TaiwenIceCream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				INFOPLIST_FILE = "TaiwenIceCreamTests/TaiwenIceCreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76689AF18BCA80D00FA6140 /* Build configuration list for PBXProject "TaiwenIceCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76689E418BCA80D00FA6140 /* Debug */,
+				F76689E518BCA80D00FA6140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76689E618BCA80D00FA6140 /* Build configuration list for PBXNativeTarget "TaiwenIceCream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76689E718BCA80D00FA6140 /* Debug */,
+				F76689E818BCA80D00FA6140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76689E918BCA80D00FA6140 /* Build configuration list for PBXNativeTarget "TaiwenIceCreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76689EA18BCA80D00FA6140 /* Debug */,
+				F76689EB18BCA80D00FA6140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76689AC18BCA80D00FA6140 /* Project object */;
+}
