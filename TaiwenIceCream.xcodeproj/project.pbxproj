@@ -73,6 +73,21 @@
 		F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */; };
 		F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689EF18BCA92300FA6140 /* MapKit.framework */; };
 		F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689F118BCA94800FA6140 /* CoreLocation.framework */; };
+		F7C93E3318BF4BEB005F97B7 /* SideContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */; };
+		F7C93E3618BF5B8A005F97B7 /* ParseCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */; };
+		F7C93E3818BF5BF6005F97B7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3718BF5BF6005F97B7 /* Parse.framework */; };
+		F7C93E3A18BF5C36005F97B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3918BF5C36005F97B7 /* AudioToolbox.framework */; };
+		F7C93E3C18BF5C3D005F97B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3B18BF5C3D005F97B7 /* CFNetwork.framework */; };
+		F7C93E3E18BF5C52005F97B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3D18BF5C52005F97B7 /* libz.dylib */; };
+		F7C93E4018BF5C59005F97B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3F18BF5C59005F97B7 /* MobileCoreServices.framework */; };
+		F7C93E4218BF5C60005F97B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4118BF5C60005F97B7 /* QuartzCore.framework */; };
+		F7C93E4418BF5C67005F97B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4318BF5C67005F97B7 /* Security.framework */; };
+		F7C93E4618BF5C6D005F97B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */; };
+		F7C93E4818BF5C75005F97B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */; };
+		F7C93E4E18BF6256005F97B7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */; };
+		F7C93E4F18BF6256005F97B7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */; };
+		F7C93E5218BF6301005F97B7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E5118BF6301005F97B7 /* Data.m */; };
+		F7C93E5618BF6A9A005F97B7 /* NSDate+Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +178,27 @@
 		F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressToCoordinate.m; sourceTree = "<group>"; };
 		F76689EF18BCA92300FA6140 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F76689F118BCA94800FA6140 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F7C93E3118BF4BEB005F97B7 /* SideContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideContentViewController.h; sourceTree = "<group>"; };
+		F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideContentViewController.m; sourceTree = "<group>"; };
+		F7C93E3418BF5B8A005F97B7 /* ParseCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCommon.h; sourceTree = "<group>"; };
+		F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseCommon.m; sourceTree = "<group>"; };
+		F7C93E3718BF5BF6005F97B7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F7C93E3918BF5C36005F97B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7C93E3B18BF5C3D005F97B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7C93E3D18BF5C52005F97B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7C93E3F18BF5C59005F97B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7C93E4118BF5C60005F97B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7C93E4318BF5C67005F97B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7C93E4A18BF6256005F97B7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F7C93E4C18BF6256005F97B7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		F7C93E5018BF6301005F97B7 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		F7C93E5118BF6301005F97B7 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		F7C93E5418BF6A9A005F97B7 /* NSDate+Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculations.h"; sourceTree = "<group>"; };
+		F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +206,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C93E4818BF5C75005F97B7 /* SystemConfiguration.framework in Frameworks */,
+				F7C93E4618BF5C6D005F97B7 /* StoreKit.framework in Frameworks */,
+				F7C93E4418BF5C67005F97B7 /* Security.framework in Frameworks */,
+				F7C93E4218BF5C60005F97B7 /* QuartzCore.framework in Frameworks */,
+				F7C93E4018BF5C59005F97B7 /* MobileCoreServices.framework in Frameworks */,
+				F7C93E3E18BF5C52005F97B7 /* libz.dylib in Frameworks */,
+				F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */,
+				F7C93E3C18BF5C3D005F97B7 /* CFNetwork.framework in Frameworks */,
+				F7C93E3A18BF5C36005F97B7 /* AudioToolbox.framework in Frameworks */,
 				F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */,
 				F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */,
-				F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */,
 				F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */,
+				F7C93E3818BF5BF6005F97B7 /* Parse.framework in Frameworks */,
 				F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +328,14 @@
 		F76689B618BCA80D00FA6140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */,
+				F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */,
+				F7C93E4318BF5C67005F97B7 /* Security.framework */,
+				F7C93E4118BF5C60005F97B7 /* QuartzCore.framework */,
+				F7C93E3F18BF5C59005F97B7 /* MobileCoreServices.framework */,
+				F7C93E3D18BF5C52005F97B7 /* libz.dylib */,
+				F7C93E3B18BF5C3D005F97B7 /* CFNetwork.framework */,
+				F7C93E3918BF5C36005F97B7 /* AudioToolbox.framework */,
 				F76689F118BCA94800FA6140 /* CoreLocation.framework */,
 				F76689EF18BCA92300FA6140 /* MapKit.framework */,
 				F76689B718BCA80D00FA6140 /* Foundation.framework */,
@@ -296,21 +349,31 @@
 		F76689BD18BCA80D00FA6140 /* TaiwenIceCream */ = {
 			isa = PBXGroup;
 			children = (
+				F76689CF18BCA80D00FA6140 /* Images.xcassets */,
+				F7C93E5418BF6A9A005F97B7 /* NSDate+Calculations.h */,
+				F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */,
+				F7C93E4918BF6256005F97B7 /* SVProgressHUD */,
 				F722CC0618BE0F3E00E50D3B /* JASidePanels */,
 				F722CB7418BD8E8D00E50D3B /* family-ice */,
 				F722CB8B18BD8E8D00E50D3B /* 7-11-ice */,
 				F76689C618BCA80D00FA6140 /* AppDelegate.h */,
 				F76689C718BCA80D00FA6140 /* AppDelegate.m */,
+				F7C93E3718BF5BF6005F97B7 /* Parse.framework */,
+				F7C93E3418BF5B8A005F97B7 /* ParseCommon.h */,
+				F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */,
+				F7C93E5018BF6301005F97B7 /* Data.h */,
+				F7C93E5118BF6301005F97B7 /* Data.m */,
 				F76689C918BCA80D00FA6140 /* Main.storyboard */,
 				F722CC1018BE102C00E50D3B /* BaseViewController.h */,
 				F722CC1118BE102C00E50D3B /* BaseViewController.m */,
+				F7C93E3118BF4BEB005F97B7 /* SideContentViewController.h */,
+				F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */,
 				F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */,
 				F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */,
 				F76689CC18BCA80D00FA6140 /* ViewController.h */,
 				F76689CD18BCA80D00FA6140 /* ViewController.m */,
 				F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */,
 				F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */,
-				F76689CF18BCA80D00FA6140 /* Images.xcassets */,
 				F76689BE18BCA80D00FA6140 /* Supporting Files */,
 				F722CBCE18BD91B200E50D3B /* IceCreamReader.h */,
 				F722CBCF18BD91B200E50D3B /* IceCreamReader.m */,
@@ -345,6 +408,17 @@
 				F76689DF18BCA80D00FA6140 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7C93E4918BF6256005F97B7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F7C93E4A18BF6256005F97B7 /* SVProgressHUD-Prefix.pch */,
+				F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */,
+				F7C93E4C18BF6256005F97B7 /* SVProgressHUD.h */,
+				F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,6 +540,7 @@
 				F722CBB218BD8E8D00E50D3B /* family-ice-17.txt in Resources */,
 				F722CBCB18BD8E8D00E50D3B /* 711-icecream-20.txt in Resources */,
 				F76689CB18BCA80D00FA6140 /* Main.storyboard in Resources */,
+				F7C93E4E18BF6256005F97B7 /* SVProgressHUD.bundle in Resources */,
 				F722CBA518BD8E8D00E50D3B /* family-ice-04.txt in Resources */,
 				F722CBA418BD8E8D00E50D3B /* family-ice-03.txt in Resources */,
 				F722CBB618BD8E8D00E50D3B /* family-ice-21.txt in Resources */,
@@ -488,9 +563,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C93E5218BF6301005F97B7 /* Data.m in Sources */,
 				F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */,
+				F7C93E5618BF6A9A005F97B7 /* NSDate+Calculations.m in Sources */,
+				F7C93E3318BF4BEB005F97B7 /* SideContentViewController.m in Sources */,
+				F7C93E3618BF5B8A005F97B7 /* ParseCommon.m in Sources */,
 				F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */,
 				F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */,
+				F7C93E4F18BF6256005F97B7 /* SVProgressHUD.m in Sources */,
 				F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */,
 				F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */,
 				F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */,
@@ -623,6 +703,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dtseng/Documents/iOS\\ Workspace/DTGit/TaiwenIceCream/TaiwenIceCream",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
 				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";
@@ -636,6 +720,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dtseng/Documents/iOS\\ Workspace/DTGit/TaiwenIceCream/TaiwenIceCream",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
 				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";

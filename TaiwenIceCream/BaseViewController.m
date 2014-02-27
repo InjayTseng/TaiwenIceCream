@@ -34,6 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    self.navigationItem.title = @"冰淇淋在哪裡";
 	// Do any additional setup after loading the view.
 }
 

@@ -46,7 +46,7 @@
 
     for (int i=1;i<=22;i++){
         NSString* fileName = [NSString stringWithFormat:@"family-ice-%02d",i];
-        NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:YES];
+        NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:NO];
         NSMutableArray* tempArray = [[NSMutableArray alloc]init];
         for (NSDictionary* dic in array){
             IceCreamSite *site = [[IceCreamSite alloc]initFromDictionary:dic];
@@ -65,7 +65,7 @@
     
     for (int i=1;i<=22;i++){
         NSString* fileName = [NSString stringWithFormat:@"711-icecream-%02d",i];
-        NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:YES];
+        NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:NO];
         NSMutableArray* tempArray = [[NSMutableArray alloc]init];
         for (NSDictionary* dic in array){
             IceCreamSite *site = [[IceCreamSite alloc]initFromDictionary:dic];
@@ -83,7 +83,7 @@
 
     int numberOfCity = [self enumOfPlace:place];
     NSString* fileName = [NSString stringWithFormat:@"family-ice-%02d",numberOfCity];
-    NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:YES];
+    NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:NO];
     NSMutableArray* tempArray = [[NSMutableArray alloc]init];
     for (NSDictionary* dic in array){
         IceCreamSite *site = [[IceCreamSite alloc]initFromDictionary:dic];
@@ -98,7 +98,7 @@
 
     int numberOfCity = [self enumOfPlace:place];
     NSString* fileName = [NSString stringWithFormat:@"711-icecream-%02d",numberOfCity];
-    NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:YES];
+    NSArray* array = [self dictionaryArrayFromJsonArray:[self readFromFileName:fileName] withLog:NO];
     NSMutableArray* tempArray = [[NSMutableArray alloc]init];
     for (NSDictionary* dic in array){
         IceCreamSite *site = [[IceCreamSite alloc]initFromDictionary:dic];
