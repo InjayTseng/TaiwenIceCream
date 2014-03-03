@@ -49,7 +49,7 @@ enum {
 
 
 @interface IceCreamSite: NSObject
-
+@property(nonatomic,strong) NSString* type;
 @property(nonatomic,strong) NSString* name;
 @property(nonatomic,strong) NSString* phone;
 @property(nonatomic,readwrite) CLLocationCoordinate2D location;

@@ -56,6 +56,9 @@
 		F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */; };
 		F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */; };
 		F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC1118BE102C00E50D3B /* BaseViewController.m */; };
+		F76316A918C47D520036B4A9 /* ice_cream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F76316A818C47D520036B4A9 /* ice_cream.jpg */; };
+		F76316AC18C47D870036B4A9 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */; };
+		F76316B018C496ED0036B4A9 /* NewsWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */; };
 		F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B718BCA80D00FA6140 /* Foundation.framework */; };
 		F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B918BCA80D00FA6140 /* CoreGraphics.framework */; };
 		F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689BB18BCA80D00FA6140 /* UIKit.framework */; };
@@ -155,6 +158,11 @@
 		F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSettingViewController.m; sourceTree = "<group>"; };
 		F722CC1018BE102C00E50D3B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F722CC1118BE102C00E50D3B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F76316A818C47D520036B4A9 /* ice_cream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ice_cream.jpg; sourceTree = "<group>"; };
+		F76316AA18C47D870036B4A9 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
+		F76316AE18C496ED0036B4A9 /* NewsWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWebPageViewController.h; sourceTree = "<group>"; };
+		F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWebPageViewController.m; sourceTree = "<group>"; };
 		F76689B418BCA80D00FA6140 /* TaiwenIceCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwenIceCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76689B718BCA80D00FA6140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F76689B918BCA80D00FA6140 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -363,6 +371,7 @@
 				F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */,
 				F7C93E5018BF6301005F97B7 /* Data.h */,
 				F7C93E5118BF6301005F97B7 /* Data.m */,
+				F76316A818C47D520036B4A9 /* ice_cream.jpg */,
 				F76689C918BCA80D00FA6140 /* Main.storyboard */,
 				F722CC1018BE102C00E50D3B /* BaseViewController.h */,
 				F722CC1118BE102C00E50D3B /* BaseViewController.m */,
@@ -370,8 +379,12 @@
 				F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */,
 				F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */,
 				F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */,
+				F76316AE18C496ED0036B4A9 /* NewsWebPageViewController.h */,
+				F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */,
 				F76689CC18BCA80D00FA6140 /* ViewController.h */,
 				F76689CD18BCA80D00FA6140 /* ViewController.m */,
+				F76316AA18C47D870036B4A9 /* PlaceDetailViewController.h */,
+				F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */,
 				F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */,
 				F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */,
 				F76689BE18BCA80D00FA6140 /* Supporting Files */,
@@ -529,6 +542,7 @@
 				F722CBC818BD8E8D00E50D3B /* 711-icecream-17.txt in Resources */,
 				F722CBC318BD8E8D00E50D3B /* 711-icecream-12.txt in Resources */,
 				F722CBA218BD8E8D00E50D3B /* family-ice-01.txt in Resources */,
+				F76316A918C47D520036B4A9 /* ice_cream.jpg in Resources */,
 				F722CBB718BD8E8D00E50D3B /* family-ice-22.txt in Resources */,
 				F76689C218BCA80D00FA6140 /* InfoPlist.strings in Resources */,
 				F722CBCD18BD8E8D00E50D3B /* 711-icecream-22.txt in Resources */,
@@ -572,9 +586,11 @@
 				F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */,
 				F7C93E4F18BF6256005F97B7 /* SVProgressHUD.m in Sources */,
 				F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */,
+				F76316AC18C47D870036B4A9 /* PlaceDetailViewController.m in Sources */,
 				F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */,
 				F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */,
 				F76689C818BCA80D00FA6140 /* AppDelegate.m in Sources */,
+				F76316B018C496ED0036B4A9 /* NewsWebPageViewController.m in Sources */,
 				F76689C418BCA80D00FA6140 /* main.m in Sources */,
 				F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */,
 			);

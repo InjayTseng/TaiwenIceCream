@@ -11,11 +11,14 @@
 #import "ViewController.h"
 #import "AddressToCoordinate.h"
 #import "IceCreamReader.h"
-
+#import "PlaceDetailViewController.h"
 #define SEVEN_ELEVEN 0
 #define FAMILY_MART 1
+#define TAG_BUTTON 9001
+
 @interface ViewController () <MKMapViewDelegate>
 @property (strong, nonatomic) IBOutlet MKMapView *mpView;
+@property (strong, nonatomic) NSMutableArray *siteArray;
 @property (readwrite, nonatomic) BOOL isFirstTimeReload;
 
 
@@ -43,6 +46,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.siteArray = [[NSMutableArray alloc]init];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadMapWithDictionary:) name:@"ReloadMapWithDictionary" object:nil];
     
     self.navigationItem.title = @"冰淇淋在哪裡";
@@ -57,24 +61,28 @@
 -(void)add711ToMap{
     NSArray * iceCreamArray711 = [IceCreamReader arrayFrom711All];
     for (IceCreamSite * site in iceCreamArray711){
+        site.type = @"7-11";
         MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
         [annotation setCoordinate:site.location];
         [annotation setTitle:@"7-11"];
         [annotation setSubtitle:site.name];
         [self.mpView addAnnotation:annotation];
     }
+    [self.siteArray addObjectsFromArray:iceCreamArray711];
 }
 
 
 -(void)addFamilyToMap{
     NSArray * iceCreamArrayFamily = [IceCreamReader arrayFromFamilyMartAll];
     for (IceCreamSite * site in iceCreamArrayFamily){
+        site.type = @"Family Mart";
         MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
         [annotation setCoordinate:site.location];
         [annotation setTitle:@"Family Mart"];
         [annotation setSubtitle:[NSString stringWithFormat:@"%@",site.name]];
         [self.mpView addAnnotation:annotation];
     }
+    [self.siteArray addObjectsFromArray:iceCreamArrayFamily];
 }
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
@@ -119,9 +127,53 @@
         [annotationView setPinColor:MKPinAnnotationColorGreen];
     }
     
+    UIButton*myButton =[UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    myButton.frame =CGRectMake(0,0,40,40);
+    [myButton addTarget:self action:@selector(annotaionViewClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [myButton setRestorationIdentifier:[annotation subtitle]];
+    [myButton setTag:TAG_BUTTON];
+    annotationView.rightCalloutAccessoryView = myButton;
+    
     return annotationView;
 
 }
+
+
+-(void)annotaionViewClicked:(id)sender{
+    
+    UIButton *btn = sender;
+    //    NSLog(@"sender %@",btn.restorationIdentifier);
+    IceCreamSite *site = [self searchSiteByTitle:btn.restorationIdentifier];
+    //[self navigatesToDetailbySite:site];
+    NSLog(@"Go to %@",site.name);
+    
+    if (site) {
+        
+        PlaceDetailViewController *dv = [self.storyboard instantiateViewControllerWithIdentifier:@"PlaceDetailViewController"];
+        [dv setCurrentSite:site];
+        [self.navigationController pushViewController:dv animated:YES];
+        
+    }else{
+    
+        [SVProgressHUD showErrorWithStatus:@"無法開啟"];
+        
+    }
+    
+}
+
+-(IceCreamSite*)searchSiteByTitle:(NSString*)name{
+
+    for (IceCreamSite* site in self.siteArray){
+        if ([site.name isEqualToString:name]) {
+            
+            return site;
+        }
+    }
+
+    return nil;
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
