@@ -7,58 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F722CBA218BD8E8D00E50D3B /* family-ice-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */; };
-		F722CBA318BD8E8D00E50D3B /* family-ice-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */; };
-		F722CBA418BD8E8D00E50D3B /* family-ice-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */; };
-		F722CBA518BD8E8D00E50D3B /* family-ice-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */; };
-		F722CBA618BD8E8D00E50D3B /* family-ice-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */; };
-		F722CBA718BD8E8D00E50D3B /* family-ice-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */; };
-		F722CBA818BD8E8D00E50D3B /* family-ice-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */; };
-		F722CBA918BD8E8D00E50D3B /* family-ice-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */; };
-		F722CBAA18BD8E8D00E50D3B /* family-ice-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */; };
-		F722CBAB18BD8E8D00E50D3B /* family-ice-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */; };
-		F722CBAC18BD8E8D00E50D3B /* family-ice-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */; };
-		F722CBAD18BD8E8D00E50D3B /* family-ice-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */; };
-		F722CBAE18BD8E8D00E50D3B /* family-ice-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */; };
-		F722CBAF18BD8E8D00E50D3B /* family-ice-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */; };
-		F722CBB018BD8E8D00E50D3B /* family-ice-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */; };
-		F722CBB118BD8E8D00E50D3B /* family-ice-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */; };
-		F722CBB218BD8E8D00E50D3B /* family-ice-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */; };
-		F722CBB318BD8E8D00E50D3B /* family-ice-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */; };
-		F722CBB418BD8E8D00E50D3B /* family-ice-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */; };
-		F722CBB518BD8E8D00E50D3B /* family-ice-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */; };
-		F722CBB618BD8E8D00E50D3B /* family-ice-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */; };
-		F722CBB718BD8E8D00E50D3B /* family-ice-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */; };
-		F722CBB818BD8E8D00E50D3B /* 711-icecream-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */; };
-		F722CBB918BD8E8D00E50D3B /* 711-icecream-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */; };
-		F722CBBA18BD8E8D00E50D3B /* 711-icecream-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */; };
-		F722CBBB18BD8E8D00E50D3B /* 711-icecream-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */; };
-		F722CBBC18BD8E8D00E50D3B /* 711-icecream-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */; };
-		F722CBBD18BD8E8D00E50D3B /* 711-icecream-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */; };
-		F722CBBE18BD8E8D00E50D3B /* 711-icecream-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */; };
-		F722CBBF18BD8E8D00E50D3B /* 711-icecream-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */; };
-		F722CBC018BD8E8D00E50D3B /* 711-icecream-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */; };
-		F722CBC118BD8E8D00E50D3B /* 711-icecream-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */; };
-		F722CBC218BD8E8D00E50D3B /* 711-icecream-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */; };
-		F722CBC318BD8E8D00E50D3B /* 711-icecream-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */; };
-		F722CBC418BD8E8D00E50D3B /* 711-icecream-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */; };
-		F722CBC518BD8E8D00E50D3B /* 711-icecream-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */; };
-		F722CBC618BD8E8D00E50D3B /* 711-icecream-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */; };
-		F722CBC718BD8E8D00E50D3B /* 711-icecream-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */; };
-		F722CBC818BD8E8D00E50D3B /* 711-icecream-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */; };
-		F722CBC918BD8E8D00E50D3B /* 711-icecream-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */; };
-		F722CBCA18BD8E8D00E50D3B /* 711-icecream-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */; };
-		F722CBCB18BD8E8D00E50D3B /* 711-icecream-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */; };
-		F722CBCC18BD8E8D00E50D3B /* 711-icecream-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */; };
-		F722CBCD18BD8E8D00E50D3B /* 711-icecream-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */; };
-		F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CBCF18BD91B200E50D3B /* IceCreamReader.m */; };
-		F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */; };
-		F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */; };
-		F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */; };
-		F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722CC1118BE102C00E50D3B /* BaseViewController.m */; };
-		F76316A918C47D520036B4A9 /* ice_cream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F76316A818C47D520036B4A9 /* ice_cream.jpg */; };
-		F76316AC18C47D870036B4A9 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */; };
-		F76316B018C496ED0036B4A9 /* NewsWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */; };
+		0C04520618C4CB2F0039345C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FA18C4CB2E0039345C /* MessageUI.framework */; };
+		0C04520718C4CB2F0039345C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FB18C4CB2E0039345C /* MediaPlayer.framework */; };
+		0C04520818C4CB2F0039345C /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FC18C4CB2E0039345C /* EventKit.framework */; };
+		0C04520918C4CB2F0039345C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FD18C4CB2E0039345C /* CoreFoundation.framework */; };
+		0C04520A18C4CB2F0039345C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FE18C4CB2F0039345C /* CoreMedia.framework */; };
+		0C04520B18C4CB2F0039345C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0451FF18C4CB2F0039345C /* CoreMotion.framework */; };
+		0C04520C18C4CB2F0039345C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520018C4CB2F0039345C /* CoreTelephony.framework */; };
+		0C04520D18C4CB2F0039345C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520118C4CB2F0039345C /* AVFoundation.framework */; };
+		0C04520E18C4CB2F0039345C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520218C4CB2F0039345C /* AssetsLibrary.framework */; };
+		0C04520F18C4CB2F0039345C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520318C4CB2F0039345C /* AdSupport.framework */; };
+		0C04521018C4CB2F0039345C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520418C4CB2F0039345C /* AddressBook.framework */; };
+		0C04521118C4CB2F0039345C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04520518C4CB2F0039345C /* AddressBookUI.framework */; };
+		0C04522218C4CF960039345C /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04521E18C4CF960039345C /* ADViewController.m */; };
+		0C04522318C4CF960039345C /* libAdOn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04521F18C4CF960039345C /* libAdOn.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		0C04522618C4D4B30039345C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04522418C4D4A30039345C /* Parse.framework */; };
+		0C04522818C4D55C0039345C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C04522718C4D55C0039345C /* FacebookSDK.framework */; };
+		0C04522B18C4E4700039345C /* 7-11_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04522918C4E4700039345C /* 7-11_40.png */; };
+		0C04522C18C4E4700039345C /* FamilyMart_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04522A18C4E4700039345C /* FamilyMart_20.png */; };
+		0C04522F18C4E8770039345C /* FamilyMart_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04522D18C4E8770039345C /* FamilyMart_50.png */; };
+		0C04523018C4E8770039345C /* 7-11_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04522E18C4E8770039345C /* 7-11_50.png */; };
+		0C04523718C4EC6C0039345C /* heading_bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04523518C4EC6C0039345C /* heading_bw.png */; };
+		0C04523818C4EC6C0039345C /* heading.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04523618C4EC6C0039345C /* heading.png */; };
+		0C04523E18C4EE450039345C /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04523B18C4EE450039345C /* KAProgressLabel.m */; };
+		0C04523F18C4EE450039345C /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C04523D18C4EE450039345C /* TPPropertyAnimation.m */; };
+		0C04524118C4F3FE0039345C /* reload_blue 拷貝.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C04524018C4F3FE0039345C /* reload_blue 拷貝.png */; };
+		0CBAAC9418C4C1CF006BBBD7 /* AddressToCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAC8D18C4C1CF006BBBD7 /* AddressToCoordinate.m */; };
+		0CBAAC9618C4C1CF006BBBD7 /* NSDate+Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAC9118C4C1CF006BBBD7 /* NSDate+Calculations.m */; };
+		0CBAAC9A18C4C216006BBBD7 /* IceCreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAC9918C4C216006BBBD7 /* IceCreamReader.m */; };
+		0CBAACA818C4C25E006BBBD7 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAC9F18C4C25E006BBBD7 /* JASidePanelController.m */; };
+		0CBAACA918C4C25E006BBBD7 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAACA118C4C25E006BBBD7 /* UIViewController+JASidePanel.m */; };
+		0CBAACAA18C4C25E006BBBD7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACA418C4C25E006BBBD7 /* SVProgressHUD.bundle */; };
+		0CBAACAB18C4C25E006BBBD7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAACA618C4C25E006BBBD7 /* SVProgressHUD.m */; };
+		0CBAACDB18C4C28C006BBBD7 /* 711-icecream-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACAE18C4C28C006BBBD7 /* 711-icecream-01.txt */; };
+		0CBAACDC18C4C28C006BBBD7 /* 711-icecream-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACAF18C4C28C006BBBD7 /* 711-icecream-02.txt */; };
+		0CBAACDD18C4C28C006BBBD7 /* 711-icecream-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB018C4C28C006BBBD7 /* 711-icecream-03.txt */; };
+		0CBAACDE18C4C28C006BBBD7 /* 711-icecream-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB118C4C28C006BBBD7 /* 711-icecream-04.txt */; };
+		0CBAACDF18C4C28C006BBBD7 /* 711-icecream-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB218C4C28C006BBBD7 /* 711-icecream-05.txt */; };
+		0CBAACE018C4C28C006BBBD7 /* 711-icecream-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB318C4C28C006BBBD7 /* 711-icecream-06.txt */; };
+		0CBAACE118C4C28C006BBBD7 /* 711-icecream-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB418C4C28C006BBBD7 /* 711-icecream-07.txt */; };
+		0CBAACE218C4C28C006BBBD7 /* 711-icecream-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB518C4C28C006BBBD7 /* 711-icecream-08.txt */; };
+		0CBAACE318C4C28C006BBBD7 /* 711-icecream-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB618C4C28C006BBBD7 /* 711-icecream-09.txt */; };
+		0CBAACE418C4C28C006BBBD7 /* 711-icecream-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB718C4C28C006BBBD7 /* 711-icecream-10.txt */; };
+		0CBAACE518C4C28C006BBBD7 /* 711-icecream-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB818C4C28C006BBBD7 /* 711-icecream-11.txt */; };
+		0CBAACE618C4C28C006BBBD7 /* 711-icecream-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACB918C4C28C006BBBD7 /* 711-icecream-12.txt */; };
+		0CBAACE718C4C28C006BBBD7 /* 711-icecream-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBA18C4C28C006BBBD7 /* 711-icecream-13.txt */; };
+		0CBAACE818C4C28C006BBBD7 /* 711-icecream-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBB18C4C28C006BBBD7 /* 711-icecream-14.txt */; };
+		0CBAACE918C4C28C006BBBD7 /* 711-icecream-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBC18C4C28C006BBBD7 /* 711-icecream-15.txt */; };
+		0CBAACEA18C4C28C006BBBD7 /* 711-icecream-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBD18C4C28C006BBBD7 /* 711-icecream-16.txt */; };
+		0CBAACEB18C4C28C006BBBD7 /* 711-icecream-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBE18C4C28C006BBBD7 /* 711-icecream-17.txt */; };
+		0CBAACEC18C4C28C006BBBD7 /* 711-icecream-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACBF18C4C28C006BBBD7 /* 711-icecream-18.txt */; };
+		0CBAACED18C4C28C006BBBD7 /* 711-icecream-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC018C4C28C006BBBD7 /* 711-icecream-19.txt */; };
+		0CBAACEE18C4C28C006BBBD7 /* 711-icecream-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC118C4C28C006BBBD7 /* 711-icecream-20.txt */; };
+		0CBAACEF18C4C28C006BBBD7 /* 711-icecream-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC218C4C28C006BBBD7 /* 711-icecream-21.txt */; };
+		0CBAACF018C4C28C006BBBD7 /* 711-icecream-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC318C4C28C006BBBD7 /* 711-icecream-22.txt */; };
+		0CBAACF118C4C28C006BBBD7 /* family-ice-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC518C4C28C006BBBD7 /* family-ice-01.txt */; };
+		0CBAACF218C4C28C006BBBD7 /* family-ice-02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC618C4C28C006BBBD7 /* family-ice-02.txt */; };
+		0CBAACF318C4C28C006BBBD7 /* family-ice-03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC718C4C28C006BBBD7 /* family-ice-03.txt */; };
+		0CBAACF418C4C28C006BBBD7 /* family-ice-04.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC818C4C28C006BBBD7 /* family-ice-04.txt */; };
+		0CBAACF518C4C28C006BBBD7 /* family-ice-05.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACC918C4C28C006BBBD7 /* family-ice-05.txt */; };
+		0CBAACF618C4C28C006BBBD7 /* family-ice-06.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCA18C4C28C006BBBD7 /* family-ice-06.txt */; };
+		0CBAACF718C4C28C006BBBD7 /* family-ice-07.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCB18C4C28C006BBBD7 /* family-ice-07.txt */; };
+		0CBAACF818C4C28C006BBBD7 /* family-ice-08.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCC18C4C28C006BBBD7 /* family-ice-08.txt */; };
+		0CBAACF918C4C28C006BBBD7 /* family-ice-09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCD18C4C28C006BBBD7 /* family-ice-09.txt */; };
+		0CBAACFA18C4C28C006BBBD7 /* family-ice-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCE18C4C28C006BBBD7 /* family-ice-10.txt */; };
+		0CBAACFB18C4C28C006BBBD7 /* family-ice-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACCF18C4C28C006BBBD7 /* family-ice-11.txt */; };
+		0CBAACFC18C4C28C006BBBD7 /* family-ice-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD018C4C28C006BBBD7 /* family-ice-12.txt */; };
+		0CBAACFD18C4C28C006BBBD7 /* family-ice-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD118C4C28C006BBBD7 /* family-ice-13.txt */; };
+		0CBAACFE18C4C28C006BBBD7 /* family-ice-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD218C4C28C006BBBD7 /* family-ice-14.txt */; };
+		0CBAACFF18C4C28C006BBBD7 /* family-ice-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD318C4C28C006BBBD7 /* family-ice-15.txt */; };
+		0CBAAD0018C4C28C006BBBD7 /* family-ice-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD418C4C28C006BBBD7 /* family-ice-16.txt */; };
+		0CBAAD0118C4C28C006BBBD7 /* family-ice-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD518C4C28C006BBBD7 /* family-ice-17.txt */; };
+		0CBAAD0218C4C28C006BBBD7 /* family-ice-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD618C4C28C006BBBD7 /* family-ice-18.txt */; };
+		0CBAAD0318C4C28C006BBBD7 /* family-ice-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD718C4C28C006BBBD7 /* family-ice-19.txt */; };
+		0CBAAD0418C4C28C006BBBD7 /* family-ice-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD818C4C28C006BBBD7 /* family-ice-20.txt */; };
+		0CBAAD0518C4C28C006BBBD7 /* family-ice-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACD918C4C28C006BBBD7 /* family-ice-21.txt */; };
+		0CBAAD0618C4C28C006BBBD7 /* family-ice-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAACDA18C4C28C006BBBD7 /* family-ice-22.txt */; };
+		0CBAAD1418C4C2AA006BBBD7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD0918C4C2AA006BBBD7 /* BaseViewController.m */; };
+		0CBAAD1518C4C2AA006BBBD7 /* NewsWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD0B18C4C2AA006BBBD7 /* NewsWebPageViewController.m */; };
+		0CBAAD1618C4C2AA006BBBD7 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD0D18C4C2AA006BBBD7 /* PlaceDetailViewController.m */; };
+		0CBAAD1718C4C2AA006BBBD7 /* SideContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD0F18C4C2AA006BBBD7 /* SideContentViewController.m */; };
+		0CBAAD1818C4C2AA006BBBD7 /* SideSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD1118C4C2AA006BBBD7 /* SideSettingViewController.m */; };
+		0CBAAD1918C4C2AA006BBBD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAAD1318C4C2AA006BBBD7 /* ViewController.m */; };
+		0CBAAD1C18C4C2CC006BBBD7 /* ice_cream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAAD1B18C4C2CC006BBBD7 /* ice_cream.jpg */; };
 		F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B718BCA80D00FA6140 /* Foundation.framework */; };
 		F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B918BCA80D00FA6140 /* CoreGraphics.framework */; };
 		F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689BB18BCA80D00FA6140 /* UIKit.framework */; };
@@ -66,19 +97,14 @@
 		F76689C418BCA80D00FA6140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689C318BCA80D00FA6140 /* main.m */; };
 		F76689C818BCA80D00FA6140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689C718BCA80D00FA6140 /* AppDelegate.m */; };
 		F76689CB18BCA80D00FA6140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76689C918BCA80D00FA6140 /* Main.storyboard */; };
-		F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689CD18BCA80D00FA6140 /* ViewController.m */; };
 		F76689D018BCA80D00FA6140 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76689CF18BCA80D00FA6140 /* Images.xcassets */; };
 		F76689D718BCA80D00FA6140 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689D618BCA80D00FA6140 /* XCTest.framework */; };
 		F76689D818BCA80D00FA6140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689B718BCA80D00FA6140 /* Foundation.framework */; };
 		F76689D918BCA80D00FA6140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689BB18BCA80D00FA6140 /* UIKit.framework */; };
 		F76689E118BCA80D00FA6140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76689DF18BCA80D00FA6140 /* InfoPlist.strings */; };
 		F76689E318BCA80D00FA6140 /* TaiwenIceCreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689E218BCA80D00FA6140 /* TaiwenIceCreamTests.m */; };
-		F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */; };
 		F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689EF18BCA92300FA6140 /* MapKit.framework */; };
 		F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76689F118BCA94800FA6140 /* CoreLocation.framework */; };
-		F7C93E3318BF4BEB005F97B7 /* SideContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */; };
-		F7C93E3618BF5B8A005F97B7 /* ParseCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */; };
-		F7C93E3818BF5BF6005F97B7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3718BF5BF6005F97B7 /* Parse.framework */; };
 		F7C93E3A18BF5C36005F97B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3918BF5C36005F97B7 /* AudioToolbox.framework */; };
 		F7C93E3C18BF5C3D005F97B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3B18BF5C3D005F97B7 /* CFNetwork.framework */; };
 		F7C93E3E18BF5C52005F97B7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E3D18BF5C52005F97B7 /* libz.dylib */; };
@@ -87,10 +113,7 @@
 		F7C93E4418BF5C67005F97B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4318BF5C67005F97B7 /* Security.framework */; };
 		F7C93E4618BF5C6D005F97B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */; };
 		F7C93E4818BF5C75005F97B7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */; };
-		F7C93E4E18BF6256005F97B7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */; };
-		F7C93E4F18BF6256005F97B7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */; };
 		F7C93E5218BF6301005F97B7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E5118BF6301005F97B7 /* Data.m */; };
-		F7C93E5618BF6A9A005F97B7 /* NSDate+Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,65 +127,108 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-01.txt"; sourceTree = "<group>"; };
-		F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-02.txt"; sourceTree = "<group>"; };
-		F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-03.txt"; sourceTree = "<group>"; };
-		F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-04.txt"; sourceTree = "<group>"; };
-		F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-05.txt"; sourceTree = "<group>"; };
-		F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-06.txt"; sourceTree = "<group>"; };
-		F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-07.txt"; sourceTree = "<group>"; };
-		F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-08.txt"; sourceTree = "<group>"; };
-		F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-09.txt"; sourceTree = "<group>"; };
-		F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-10.txt"; sourceTree = "<group>"; };
-		F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-11.txt"; sourceTree = "<group>"; };
-		F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-12.txt"; sourceTree = "<group>"; };
-		F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-13.txt"; sourceTree = "<group>"; };
-		F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-14.txt"; sourceTree = "<group>"; };
-		F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-15.txt"; sourceTree = "<group>"; };
-		F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-16.txt"; sourceTree = "<group>"; };
-		F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-17.txt"; sourceTree = "<group>"; };
-		F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-18.txt"; sourceTree = "<group>"; };
-		F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-19.txt"; sourceTree = "<group>"; };
-		F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-20.txt"; sourceTree = "<group>"; };
-		F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-21.txt"; sourceTree = "<group>"; };
-		F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-22.txt"; sourceTree = "<group>"; };
-		F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-01.txt"; sourceTree = "<group>"; };
-		F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-02.txt"; sourceTree = "<group>"; };
-		F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-03.txt"; sourceTree = "<group>"; };
-		F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-04.txt"; sourceTree = "<group>"; };
-		F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-05.txt"; sourceTree = "<group>"; };
-		F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-06.txt"; sourceTree = "<group>"; };
-		F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-07.txt"; sourceTree = "<group>"; };
-		F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-08.txt"; sourceTree = "<group>"; };
-		F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-09.txt"; sourceTree = "<group>"; };
-		F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-10.txt"; sourceTree = "<group>"; };
-		F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-11.txt"; sourceTree = "<group>"; };
-		F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-12.txt"; sourceTree = "<group>"; };
-		F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-13.txt"; sourceTree = "<group>"; };
-		F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-14.txt"; sourceTree = "<group>"; };
-		F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-15.txt"; sourceTree = "<group>"; };
-		F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-16.txt"; sourceTree = "<group>"; };
-		F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-17.txt"; sourceTree = "<group>"; };
-		F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-18.txt"; sourceTree = "<group>"; };
-		F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-19.txt"; sourceTree = "<group>"; };
-		F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-20.txt"; sourceTree = "<group>"; };
-		F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-21.txt"; sourceTree = "<group>"; };
-		F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-22.txt"; sourceTree = "<group>"; };
-		F722CBCE18BD91B200E50D3B /* IceCreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCreamReader.h; sourceTree = "<group>"; };
-		F722CBCF18BD91B200E50D3B /* IceCreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCreamReader.m; sourceTree = "<group>"; };
-		F722CC0718BE0F3E00E50D3B /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
-		F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
-		F722CC0918BE0F3E00E50D3B /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
-		F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
-		F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSettingViewController.h; sourceTree = "<group>"; };
-		F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSettingViewController.m; sourceTree = "<group>"; };
-		F722CC1018BE102C00E50D3B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		F722CC1118BE102C00E50D3B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		F76316A818C47D520036B4A9 /* ice_cream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ice_cream.jpg; sourceTree = "<group>"; };
-		F76316AA18C47D870036B4A9 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
-		F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
-		F76316AE18C496ED0036B4A9 /* NewsWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWebPageViewController.h; sourceTree = "<group>"; };
-		F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWebPageViewController.m; sourceTree = "<group>"; };
+		0C0451F518C4CAD20039345C /* libAdOn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdOn.a; path = TaiwenIceCream/VponAd/libAdOn.a; sourceTree = "<group>"; };
+		0C0451FA18C4CB2E0039345C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0C0451FB18C4CB2E0039345C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0C0451FC18C4CB2E0039345C /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		0C0451FD18C4CB2E0039345C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0C0451FE18C4CB2F0039345C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0C0451FF18C4CB2F0039345C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0C04520018C4CB2F0039345C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0C04520118C4CB2F0039345C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0C04520218C4CB2F0039345C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0C04520318C4CB2F0039345C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0C04520418C4CB2F0039345C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0C04520518C4CB2F0039345C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		0C04521D18C4CF960039345C /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		0C04521E18C4CF960039345C /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		0C04521F18C4CF960039345C /* libAdOn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdOn.a; sourceTree = "<group>"; };
+		0C04522018C4CF960039345C /* VponBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VponBanner.h; sourceTree = "<group>"; };
+		0C04522118C4CF960039345C /* VponInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VponInterstitial.h; sourceTree = "<group>"; };
+		0C04522418C4D4A30039345C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0C04522718C4D55C0039345C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		0C04522918C4E4700039345C /* 7-11_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-11_40.png"; sourceTree = "<group>"; };
+		0C04522A18C4E4700039345C /* FamilyMart_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FamilyMart_20.png; sourceTree = "<group>"; };
+		0C04522D18C4E8770039345C /* FamilyMart_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FamilyMart_50.png; sourceTree = "<group>"; };
+		0C04522E18C4E8770039345C /* 7-11_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-11_50.png"; sourceTree = "<group>"; };
+		0C04523518C4EC6C0039345C /* heading_bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heading_bw.png; sourceTree = "<group>"; };
+		0C04523618C4EC6C0039345C /* heading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heading.png; sourceTree = "<group>"; };
+		0C04523A18C4EE450039345C /* KAProgressLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAProgressLabel.h; sourceTree = "<group>"; };
+		0C04523B18C4EE450039345C /* KAProgressLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAProgressLabel.m; sourceTree = "<group>"; };
+		0C04523C18C4EE450039345C /* TPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPropertyAnimation.h; sourceTree = "<group>"; };
+		0C04523D18C4EE450039345C /* TPPropertyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPropertyAnimation.m; sourceTree = "<group>"; };
+		0C04524018C4F3FE0039345C /* reload_blue 拷貝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload_blue 拷貝.png"; sourceTree = "<group>"; };
+		0CBAAC8C18C4C1CF006BBBD7 /* AddressToCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressToCoordinate.h; sourceTree = "<group>"; };
+		0CBAAC8D18C4C1CF006BBBD7 /* AddressToCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressToCoordinate.m; sourceTree = "<group>"; };
+		0CBAAC9018C4C1CF006BBBD7 /* NSDate+Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculations.h"; sourceTree = "<group>"; };
+		0CBAAC9118C4C1CF006BBBD7 /* NSDate+Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculations.m"; sourceTree = "<group>"; };
+		0CBAAC9818C4C216006BBBD7 /* IceCreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCreamReader.h; sourceTree = "<group>"; };
+		0CBAAC9918C4C216006BBBD7 /* IceCreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCreamReader.m; sourceTree = "<group>"; };
+		0CBAAC9E18C4C25E006BBBD7 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		0CBAAC9F18C4C25E006BBBD7 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		0CBAACA018C4C25E006BBBD7 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		0CBAACA118C4C25E006BBBD7 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		0CBAACA318C4C25E006BBBD7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		0CBAACA418C4C25E006BBBD7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0CBAACA518C4C25E006BBBD7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		0CBAACA618C4C25E006BBBD7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0CBAACAE18C4C28C006BBBD7 /* 711-icecream-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-01.txt"; sourceTree = "<group>"; };
+		0CBAACAF18C4C28C006BBBD7 /* 711-icecream-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-02.txt"; sourceTree = "<group>"; };
+		0CBAACB018C4C28C006BBBD7 /* 711-icecream-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-03.txt"; sourceTree = "<group>"; };
+		0CBAACB118C4C28C006BBBD7 /* 711-icecream-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-04.txt"; sourceTree = "<group>"; };
+		0CBAACB218C4C28C006BBBD7 /* 711-icecream-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-05.txt"; sourceTree = "<group>"; };
+		0CBAACB318C4C28C006BBBD7 /* 711-icecream-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-06.txt"; sourceTree = "<group>"; };
+		0CBAACB418C4C28C006BBBD7 /* 711-icecream-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-07.txt"; sourceTree = "<group>"; };
+		0CBAACB518C4C28C006BBBD7 /* 711-icecream-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-08.txt"; sourceTree = "<group>"; };
+		0CBAACB618C4C28C006BBBD7 /* 711-icecream-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-09.txt"; sourceTree = "<group>"; };
+		0CBAACB718C4C28C006BBBD7 /* 711-icecream-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-10.txt"; sourceTree = "<group>"; };
+		0CBAACB818C4C28C006BBBD7 /* 711-icecream-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-11.txt"; sourceTree = "<group>"; };
+		0CBAACB918C4C28C006BBBD7 /* 711-icecream-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-12.txt"; sourceTree = "<group>"; };
+		0CBAACBA18C4C28C006BBBD7 /* 711-icecream-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-13.txt"; sourceTree = "<group>"; };
+		0CBAACBB18C4C28C006BBBD7 /* 711-icecream-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-14.txt"; sourceTree = "<group>"; };
+		0CBAACBC18C4C28C006BBBD7 /* 711-icecream-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-15.txt"; sourceTree = "<group>"; };
+		0CBAACBD18C4C28C006BBBD7 /* 711-icecream-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-16.txt"; sourceTree = "<group>"; };
+		0CBAACBE18C4C28C006BBBD7 /* 711-icecream-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-17.txt"; sourceTree = "<group>"; };
+		0CBAACBF18C4C28C006BBBD7 /* 711-icecream-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-18.txt"; sourceTree = "<group>"; };
+		0CBAACC018C4C28C006BBBD7 /* 711-icecream-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-19.txt"; sourceTree = "<group>"; };
+		0CBAACC118C4C28C006BBBD7 /* 711-icecream-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-20.txt"; sourceTree = "<group>"; };
+		0CBAACC218C4C28C006BBBD7 /* 711-icecream-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-21.txt"; sourceTree = "<group>"; };
+		0CBAACC318C4C28C006BBBD7 /* 711-icecream-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "711-icecream-22.txt"; sourceTree = "<group>"; };
+		0CBAACC518C4C28C006BBBD7 /* family-ice-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-01.txt"; sourceTree = "<group>"; };
+		0CBAACC618C4C28C006BBBD7 /* family-ice-02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-02.txt"; sourceTree = "<group>"; };
+		0CBAACC718C4C28C006BBBD7 /* family-ice-03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-03.txt"; sourceTree = "<group>"; };
+		0CBAACC818C4C28C006BBBD7 /* family-ice-04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-04.txt"; sourceTree = "<group>"; };
+		0CBAACC918C4C28C006BBBD7 /* family-ice-05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-05.txt"; sourceTree = "<group>"; };
+		0CBAACCA18C4C28C006BBBD7 /* family-ice-06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-06.txt"; sourceTree = "<group>"; };
+		0CBAACCB18C4C28C006BBBD7 /* family-ice-07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-07.txt"; sourceTree = "<group>"; };
+		0CBAACCC18C4C28C006BBBD7 /* family-ice-08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-08.txt"; sourceTree = "<group>"; };
+		0CBAACCD18C4C28C006BBBD7 /* family-ice-09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-09.txt"; sourceTree = "<group>"; };
+		0CBAACCE18C4C28C006BBBD7 /* family-ice-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-10.txt"; sourceTree = "<group>"; };
+		0CBAACCF18C4C28C006BBBD7 /* family-ice-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-11.txt"; sourceTree = "<group>"; };
+		0CBAACD018C4C28C006BBBD7 /* family-ice-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-12.txt"; sourceTree = "<group>"; };
+		0CBAACD118C4C28C006BBBD7 /* family-ice-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-13.txt"; sourceTree = "<group>"; };
+		0CBAACD218C4C28C006BBBD7 /* family-ice-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-14.txt"; sourceTree = "<group>"; };
+		0CBAACD318C4C28C006BBBD7 /* family-ice-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-15.txt"; sourceTree = "<group>"; };
+		0CBAACD418C4C28C006BBBD7 /* family-ice-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-16.txt"; sourceTree = "<group>"; };
+		0CBAACD518C4C28C006BBBD7 /* family-ice-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-17.txt"; sourceTree = "<group>"; };
+		0CBAACD618C4C28C006BBBD7 /* family-ice-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-18.txt"; sourceTree = "<group>"; };
+		0CBAACD718C4C28C006BBBD7 /* family-ice-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-19.txt"; sourceTree = "<group>"; };
+		0CBAACD818C4C28C006BBBD7 /* family-ice-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-20.txt"; sourceTree = "<group>"; };
+		0CBAACD918C4C28C006BBBD7 /* family-ice-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-21.txt"; sourceTree = "<group>"; };
+		0CBAACDA18C4C28C006BBBD7 /* family-ice-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "family-ice-22.txt"; sourceTree = "<group>"; };
+		0CBAAD0818C4C2AA006BBBD7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0CBAAD0918C4C2AA006BBBD7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0CBAAD0A18C4C2AA006BBBD7 /* NewsWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWebPageViewController.h; sourceTree = "<group>"; };
+		0CBAAD0B18C4C2AA006BBBD7 /* NewsWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWebPageViewController.m; sourceTree = "<group>"; };
+		0CBAAD0C18C4C2AA006BBBD7 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		0CBAAD0D18C4C2AA006BBBD7 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
+		0CBAAD0E18C4C2AA006BBBD7 /* SideContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideContentViewController.h; sourceTree = "<group>"; };
+		0CBAAD0F18C4C2AA006BBBD7 /* SideContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideContentViewController.m; sourceTree = "<group>"; };
+		0CBAAD1018C4C2AA006BBBD7 /* SideSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSettingViewController.h; sourceTree = "<group>"; };
+		0CBAAD1118C4C2AA006BBBD7 /* SideSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideSettingViewController.m; sourceTree = "<group>"; };
+		0CBAAD1218C4C2AA006BBBD7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CBAAD1318C4C2AA006BBBD7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CBAAD1B18C4C2CC006BBBD7 /* ice_cream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ice_cream.jpg; sourceTree = "<group>"; };
 		F76689B418BCA80D00FA6140 /* TaiwenIceCream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwenIceCream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76689B718BCA80D00FA6140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F76689B918BCA80D00FA6140 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,23 +240,14 @@
 		F76689C618BCA80D00FA6140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F76689C718BCA80D00FA6140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F76689CA18BCA80D00FA6140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F76689CC18BCA80D00FA6140 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F76689CD18BCA80D00FA6140 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F76689CF18BCA80D00FA6140 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F76689D518BCA80D00FA6140 /* TaiwenIceCreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwenIceCreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76689D618BCA80D00FA6140 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F76689DE18BCA80D00FA6140 /* TaiwenIceCreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaiwenIceCreamTests-Info.plist"; sourceTree = "<group>"; };
 		F76689E018BCA80D00FA6140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F76689E218BCA80D00FA6140 /* TaiwenIceCreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaiwenIceCreamTests.m; sourceTree = "<group>"; };
-		F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressToCoordinate.h; sourceTree = "<group>"; };
-		F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressToCoordinate.m; sourceTree = "<group>"; };
 		F76689EF18BCA92300FA6140 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F76689F118BCA94800FA6140 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		F7C93E3118BF4BEB005F97B7 /* SideContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideContentViewController.h; sourceTree = "<group>"; };
-		F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideContentViewController.m; sourceTree = "<group>"; };
-		F7C93E3418BF5B8A005F97B7 /* ParseCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCommon.h; sourceTree = "<group>"; };
-		F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseCommon.m; sourceTree = "<group>"; };
-		F7C93E3718BF5BF6005F97B7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		F7C93E3918BF5C36005F97B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F7C93E3B18BF5C3D005F97B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F7C93E3D18BF5C52005F97B7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -199,14 +256,8 @@
 		F7C93E4318BF5C67005F97B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F7C93E4A18BF6256005F97B7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		F7C93E4C18BF6256005F97B7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		F7C93E5018BF6301005F97B7 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		F7C93E5118BF6301005F97B7 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
-		F7C93E5418BF6A9A005F97B7 /* NSDate+Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculations.h"; sourceTree = "<group>"; };
-		F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,20 +265,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C04520618C4CB2F0039345C /* MessageUI.framework in Frameworks */,
+				0C04520718C4CB2F0039345C /* MediaPlayer.framework in Frameworks */,
+				0C04522618C4D4B30039345C /* Parse.framework in Frameworks */,
+				0C04520818C4CB2F0039345C /* EventKit.framework in Frameworks */,
+				0C04520918C4CB2F0039345C /* CoreFoundation.framework in Frameworks */,
+				0C04520A18C4CB2F0039345C /* CoreMedia.framework in Frameworks */,
+				0C04520B18C4CB2F0039345C /* CoreMotion.framework in Frameworks */,
+				0C04520C18C4CB2F0039345C /* CoreTelephony.framework in Frameworks */,
+				0C04520D18C4CB2F0039345C /* AVFoundation.framework in Frameworks */,
+				0C04520E18C4CB2F0039345C /* AssetsLibrary.framework in Frameworks */,
+				0C04520F18C4CB2F0039345C /* AdSupport.framework in Frameworks */,
+				0C04522318C4CF960039345C /* libAdOn.a in Frameworks */,
+				0C04521018C4CB2F0039345C /* AddressBook.framework in Frameworks */,
+				0C04522818C4D55C0039345C /* FacebookSDK.framework in Frameworks */,
+				0C04521118C4CB2F0039345C /* AddressBookUI.framework in Frameworks */,
 				F7C93E4818BF5C75005F97B7 /* SystemConfiguration.framework in Frameworks */,
 				F7C93E4618BF5C6D005F97B7 /* StoreKit.framework in Frameworks */,
 				F7C93E4418BF5C67005F97B7 /* Security.framework in Frameworks */,
 				F7C93E4218BF5C60005F97B7 /* QuartzCore.framework in Frameworks */,
 				F7C93E4018BF5C59005F97B7 /* MobileCoreServices.framework in Frameworks */,
-				F7C93E3E18BF5C52005F97B7 /* libz.dylib in Frameworks */,
-				F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */,
-				F7C93E3C18BF5C3D005F97B7 /* CFNetwork.framework in Frameworks */,
-				F7C93E3A18BF5C36005F97B7 /* AudioToolbox.framework in Frameworks */,
 				F76689F218BCA94800FA6140 /* CoreLocation.framework in Frameworks */,
-				F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */,
+				F7C93E3A18BF5C36005F97B7 /* AudioToolbox.framework in Frameworks */,
 				F76689BC18BCA80D00FA6140 /* UIKit.framework in Frameworks */,
-				F7C93E3818BF5BF6005F97B7 /* Parse.framework in Frameworks */,
 				F76689B818BCA80D00FA6140 /* Foundation.framework in Frameworks */,
+				F76689BA18BCA80D00FA6140 /* CoreGraphics.framework in Frameworks */,
+				F7C93E3E18BF5C52005F97B7 /* libz.dylib in Frameworks */,
+				F7C93E3C18BF5C3D005F97B7 /* CFNetwork.framework in Frameworks */,
+				F76689F018BCA92300FA6140 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,74 +309,172 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F722CB7418BD8E8D00E50D3B /* family-ice */ = {
+		0C04521C18C4CF960039345C /* VponAd */ = {
 			isa = PBXGroup;
 			children = (
-				F722CB7518BD8E8D00E50D3B /* family-ice-01.txt */,
-				F722CB7618BD8E8D00E50D3B /* family-ice-02.txt */,
-				F722CB7718BD8E8D00E50D3B /* family-ice-03.txt */,
-				F722CB7818BD8E8D00E50D3B /* family-ice-04.txt */,
-				F722CB7918BD8E8D00E50D3B /* family-ice-05.txt */,
-				F722CB7A18BD8E8D00E50D3B /* family-ice-06.txt */,
-				F722CB7B18BD8E8D00E50D3B /* family-ice-07.txt */,
-				F722CB7C18BD8E8D00E50D3B /* family-ice-08.txt */,
-				F722CB7D18BD8E8D00E50D3B /* family-ice-09.txt */,
-				F722CB7E18BD8E8D00E50D3B /* family-ice-10.txt */,
-				F722CB7F18BD8E8D00E50D3B /* family-ice-11.txt */,
-				F722CB8018BD8E8D00E50D3B /* family-ice-12.txt */,
-				F722CB8118BD8E8D00E50D3B /* family-ice-13.txt */,
-				F722CB8218BD8E8D00E50D3B /* family-ice-14.txt */,
-				F722CB8318BD8E8D00E50D3B /* family-ice-15.txt */,
-				F722CB8418BD8E8D00E50D3B /* family-ice-16.txt */,
-				F722CB8518BD8E8D00E50D3B /* family-ice-17.txt */,
-				F722CB8618BD8E8D00E50D3B /* family-ice-18.txt */,
-				F722CB8718BD8E8D00E50D3B /* family-ice-19.txt */,
-				F722CB8818BD8E8D00E50D3B /* family-ice-20.txt */,
-				F722CB8918BD8E8D00E50D3B /* family-ice-21.txt */,
-				F722CB8A18BD8E8D00E50D3B /* family-ice-22.txt */,
+				0C04521D18C4CF960039345C /* ADViewController.h */,
+				0C04521E18C4CF960039345C /* ADViewController.m */,
+				0C04521F18C4CF960039345C /* libAdOn.a */,
+				0C04522018C4CF960039345C /* VponBanner.h */,
+				0C04522118C4CF960039345C /* VponInterstitial.h */,
 			);
-			path = "family-ice";
+			path = VponAd;
 			sourceTree = "<group>";
 		};
-		F722CB8B18BD8E8D00E50D3B /* 7-11-ice */ = {
+		0C04523918C4EE450039345C /* KAProgressLabel */ = {
 			isa = PBXGroup;
 			children = (
-				F722CB8C18BD8E8D00E50D3B /* 711-icecream-01.txt */,
-				F722CB8D18BD8E8D00E50D3B /* 711-icecream-02.txt */,
-				F722CB8E18BD8E8D00E50D3B /* 711-icecream-03.txt */,
-				F722CB8F18BD8E8D00E50D3B /* 711-icecream-04.txt */,
-				F722CB9018BD8E8D00E50D3B /* 711-icecream-05.txt */,
-				F722CB9118BD8E8D00E50D3B /* 711-icecream-06.txt */,
-				F722CB9218BD8E8D00E50D3B /* 711-icecream-07.txt */,
-				F722CB9318BD8E8D00E50D3B /* 711-icecream-08.txt */,
-				F722CB9418BD8E8D00E50D3B /* 711-icecream-09.txt */,
-				F722CB9518BD8E8D00E50D3B /* 711-icecream-10.txt */,
-				F722CB9618BD8E8D00E50D3B /* 711-icecream-11.txt */,
-				F722CB9718BD8E8D00E50D3B /* 711-icecream-12.txt */,
-				F722CB9818BD8E8D00E50D3B /* 711-icecream-13.txt */,
-				F722CB9918BD8E8D00E50D3B /* 711-icecream-14.txt */,
-				F722CB9A18BD8E8D00E50D3B /* 711-icecream-15.txt */,
-				F722CB9B18BD8E8D00E50D3B /* 711-icecream-16.txt */,
-				F722CB9C18BD8E8D00E50D3B /* 711-icecream-17.txt */,
-				F722CB9D18BD8E8D00E50D3B /* 711-icecream-18.txt */,
-				F722CB9E18BD8E8D00E50D3B /* 711-icecream-19.txt */,
-				F722CB9F18BD8E8D00E50D3B /* 711-icecream-20.txt */,
-				F722CBA018BD8E8D00E50D3B /* 711-icecream-21.txt */,
-				F722CBA118BD8E8D00E50D3B /* 711-icecream-22.txt */,
+				0C04523A18C4EE450039345C /* KAProgressLabel.h */,
+				0C04523B18C4EE450039345C /* KAProgressLabel.m */,
+				0C04523C18C4EE450039345C /* TPPropertyAnimation.h */,
+				0C04523D18C4EE450039345C /* TPPropertyAnimation.m */,
+			);
+			name = KAProgressLabel;
+			path = ../KAProgressLabel;
+			sourceTree = "<group>";
+		};
+		0CBAAC8B18C4C1CF006BBBD7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAC8C18C4C1CF006BBBD7 /* AddressToCoordinate.h */,
+				0CBAAC8D18C4C1CF006BBBD7 /* AddressToCoordinate.m */,
+				0CBAAC9018C4C1CF006BBBD7 /* NSDate+Calculations.h */,
+				0CBAAC9118C4C1CF006BBBD7 /* NSDate+Calculations.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0CBAAC9B18C4C25E006BBBD7 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0C04523918C4EE450039345C /* KAProgressLabel */,
+				0CBAAC9D18C4C25E006BBBD7 /* Source */,
+				0CBAACA218C4C25E006BBBD7 /* SVProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		0CBAAC9D18C4C25E006BBBD7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAC9E18C4C25E006BBBD7 /* JASidePanelController.h */,
+				0CBAAC9F18C4C25E006BBBD7 /* JASidePanelController.m */,
+				0CBAACA018C4C25E006BBBD7 /* UIViewController+JASidePanel.h */,
+				0CBAACA118C4C25E006BBBD7 /* UIViewController+JASidePanel.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0CBAACA218C4C25E006BBBD7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAACA318C4C25E006BBBD7 /* SVProgressHUD-Prefix.pch */,
+				0CBAACA418C4C25E006BBBD7 /* SVProgressHUD.bundle */,
+				0CBAACA518C4C25E006BBBD7 /* SVProgressHUD.h */,
+				0CBAACA618C4C25E006BBBD7 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		0CBAACAC18C4C28C006BBBD7 /* DataSourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAACAD18C4C28C006BBBD7 /* 7-11-ice */,
+				0CBAACC418C4C28C006BBBD7 /* family-ice */,
+			);
+			path = DataSourceFiles;
+			sourceTree = "<group>";
+		};
+		0CBAACAD18C4C28C006BBBD7 /* 7-11-ice */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAACAE18C4C28C006BBBD7 /* 711-icecream-01.txt */,
+				0CBAACAF18C4C28C006BBBD7 /* 711-icecream-02.txt */,
+				0CBAACB018C4C28C006BBBD7 /* 711-icecream-03.txt */,
+				0CBAACB118C4C28C006BBBD7 /* 711-icecream-04.txt */,
+				0CBAACB218C4C28C006BBBD7 /* 711-icecream-05.txt */,
+				0CBAACB318C4C28C006BBBD7 /* 711-icecream-06.txt */,
+				0CBAACB418C4C28C006BBBD7 /* 711-icecream-07.txt */,
+				0CBAACB518C4C28C006BBBD7 /* 711-icecream-08.txt */,
+				0CBAACB618C4C28C006BBBD7 /* 711-icecream-09.txt */,
+				0CBAACB718C4C28C006BBBD7 /* 711-icecream-10.txt */,
+				0CBAACB818C4C28C006BBBD7 /* 711-icecream-11.txt */,
+				0CBAACB918C4C28C006BBBD7 /* 711-icecream-12.txt */,
+				0CBAACBA18C4C28C006BBBD7 /* 711-icecream-13.txt */,
+				0CBAACBB18C4C28C006BBBD7 /* 711-icecream-14.txt */,
+				0CBAACBC18C4C28C006BBBD7 /* 711-icecream-15.txt */,
+				0CBAACBD18C4C28C006BBBD7 /* 711-icecream-16.txt */,
+				0CBAACBE18C4C28C006BBBD7 /* 711-icecream-17.txt */,
+				0CBAACBF18C4C28C006BBBD7 /* 711-icecream-18.txt */,
+				0CBAACC018C4C28C006BBBD7 /* 711-icecream-19.txt */,
+				0CBAACC118C4C28C006BBBD7 /* 711-icecream-20.txt */,
+				0CBAACC218C4C28C006BBBD7 /* 711-icecream-21.txt */,
+				0CBAACC318C4C28C006BBBD7 /* 711-icecream-22.txt */,
 			);
 			path = "7-11-ice";
 			sourceTree = "<group>";
 		};
-		F722CC0618BE0F3E00E50D3B /* JASidePanels */ = {
+		0CBAACC418C4C28C006BBBD7 /* family-ice */ = {
 			isa = PBXGroup;
 			children = (
-				F722CC0718BE0F3E00E50D3B /* JASidePanelController.h */,
-				F722CC0818BE0F3E00E50D3B /* JASidePanelController.m */,
-				F722CC0918BE0F3E00E50D3B /* UIViewController+JASidePanel.h */,
-				F722CC0A18BE0F3E00E50D3B /* UIViewController+JASidePanel.m */,
+				0CBAACC518C4C28C006BBBD7 /* family-ice-01.txt */,
+				0CBAACC618C4C28C006BBBD7 /* family-ice-02.txt */,
+				0CBAACC718C4C28C006BBBD7 /* family-ice-03.txt */,
+				0CBAACC818C4C28C006BBBD7 /* family-ice-04.txt */,
+				0CBAACC918C4C28C006BBBD7 /* family-ice-05.txt */,
+				0CBAACCA18C4C28C006BBBD7 /* family-ice-06.txt */,
+				0CBAACCB18C4C28C006BBBD7 /* family-ice-07.txt */,
+				0CBAACCC18C4C28C006BBBD7 /* family-ice-08.txt */,
+				0CBAACCD18C4C28C006BBBD7 /* family-ice-09.txt */,
+				0CBAACCE18C4C28C006BBBD7 /* family-ice-10.txt */,
+				0CBAACCF18C4C28C006BBBD7 /* family-ice-11.txt */,
+				0CBAACD018C4C28C006BBBD7 /* family-ice-12.txt */,
+				0CBAACD118C4C28C006BBBD7 /* family-ice-13.txt */,
+				0CBAACD218C4C28C006BBBD7 /* family-ice-14.txt */,
+				0CBAACD318C4C28C006BBBD7 /* family-ice-15.txt */,
+				0CBAACD418C4C28C006BBBD7 /* family-ice-16.txt */,
+				0CBAACD518C4C28C006BBBD7 /* family-ice-17.txt */,
+				0CBAACD618C4C28C006BBBD7 /* family-ice-18.txt */,
+				0CBAACD718C4C28C006BBBD7 /* family-ice-19.txt */,
+				0CBAACD818C4C28C006BBBD7 /* family-ice-20.txt */,
+				0CBAACD918C4C28C006BBBD7 /* family-ice-21.txt */,
+				0CBAACDA18C4C28C006BBBD7 /* family-ice-22.txt */,
 			);
-			name = JASidePanels;
-			path = Source;
+			path = "family-ice";
+			sourceTree = "<group>";
+		};
+		0CBAAD0718C4C2AA006BBBD7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAD0818C4C2AA006BBBD7 /* BaseViewController.h */,
+				0CBAAD0918C4C2AA006BBBD7 /* BaseViewController.m */,
+				0CBAAD1218C4C2AA006BBBD7 /* ViewController.h */,
+				0CBAAD1318C4C2AA006BBBD7 /* ViewController.m */,
+				0CBAAD0A18C4C2AA006BBBD7 /* NewsWebPageViewController.h */,
+				0CBAAD0B18C4C2AA006BBBD7 /* NewsWebPageViewController.m */,
+				0CBAAD0C18C4C2AA006BBBD7 /* PlaceDetailViewController.h */,
+				0CBAAD0D18C4C2AA006BBBD7 /* PlaceDetailViewController.m */,
+				0CBAAD0E18C4C2AA006BBBD7 /* SideContentViewController.h */,
+				0CBAAD0F18C4C2AA006BBBD7 /* SideContentViewController.m */,
+				0CBAAD1018C4C2AA006BBBD7 /* SideSettingViewController.h */,
+				0CBAAD1118C4C2AA006BBBD7 /* SideSettingViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0CBAAD1A18C4C2CC006BBBD7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0C04524018C4F3FE0039345C /* reload_blue 拷貝.png */,
+				0C04523518C4EC6C0039345C /* heading_bw.png */,
+				0C04523618C4EC6C0039345C /* heading.png */,
+				0C04522D18C4E8770039345C /* FamilyMart_50.png */,
+				0C04522E18C4E8770039345C /* 7-11_50.png */,
+				0C04522918C4E4700039345C /* 7-11_40.png */,
+				0C04522A18C4E4700039345C /* FamilyMart_20.png */,
+				0CBAAD1B18C4C2CC006BBBD7 /* ice_cream.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		F76689AB18BCA80D00FA6140 = {
@@ -336,6 +499,19 @@
 		F76689B618BCA80D00FA6140 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C0451FA18C4CB2E0039345C /* MessageUI.framework */,
+				0C0451FB18C4CB2E0039345C /* MediaPlayer.framework */,
+				0C0451FC18C4CB2E0039345C /* EventKit.framework */,
+				0C0451FD18C4CB2E0039345C /* CoreFoundation.framework */,
+				0C0451FE18C4CB2F0039345C /* CoreMedia.framework */,
+				0C0451FF18C4CB2F0039345C /* CoreMotion.framework */,
+				0C04520018C4CB2F0039345C /* CoreTelephony.framework */,
+				0C04520118C4CB2F0039345C /* AVFoundation.framework */,
+				0C04520218C4CB2F0039345C /* AssetsLibrary.framework */,
+				0C04520318C4CB2F0039345C /* AdSupport.framework */,
+				0C04520418C4CB2F0039345C /* AddressBook.framework */,
+				0C04520518C4CB2F0039345C /* AddressBookUI.framework */,
+				0C0451F518C4CAD20039345C /* libAdOn.a */,
 				F7C93E4718BF5C75005F97B7 /* SystemConfiguration.framework */,
 				F7C93E4518BF5C6D005F97B7 /* StoreKit.framework */,
 				F7C93E4318BF5C67005F97B7 /* Security.framework */,
@@ -357,39 +533,23 @@
 		F76689BD18BCA80D00FA6140 /* TaiwenIceCream */ = {
 			isa = PBXGroup;
 			children = (
+				0C04522718C4D55C0039345C /* FacebookSDK.framework */,
+				0C04522418C4D4A30039345C /* Parse.framework */,
+				0C04521C18C4CF960039345C /* VponAd */,
 				F76689CF18BCA80D00FA6140 /* Images.xcassets */,
-				F7C93E5418BF6A9A005F97B7 /* NSDate+Calculations.h */,
-				F7C93E5518BF6A9A005F97B7 /* NSDate+Calculations.m */,
-				F7C93E4918BF6256005F97B7 /* SVProgressHUD */,
-				F722CC0618BE0F3E00E50D3B /* JASidePanels */,
-				F722CB7418BD8E8D00E50D3B /* family-ice */,
-				F722CB8B18BD8E8D00E50D3B /* 7-11-ice */,
+				0CBAAC9818C4C216006BBBD7 /* IceCreamReader.h */,
+				0CBAAC9918C4C216006BBBD7 /* IceCreamReader.m */,
 				F76689C618BCA80D00FA6140 /* AppDelegate.h */,
 				F76689C718BCA80D00FA6140 /* AppDelegate.m */,
-				F7C93E3718BF5BF6005F97B7 /* Parse.framework */,
-				F7C93E3418BF5B8A005F97B7 /* ParseCommon.h */,
-				F7C93E3518BF5B8A005F97B7 /* ParseCommon.m */,
 				F7C93E5018BF6301005F97B7 /* Data.h */,
 				F7C93E5118BF6301005F97B7 /* Data.m */,
-				F76316A818C47D520036B4A9 /* ice_cream.jpg */,
 				F76689C918BCA80D00FA6140 /* Main.storyboard */,
-				F722CC1018BE102C00E50D3B /* BaseViewController.h */,
-				F722CC1118BE102C00E50D3B /* BaseViewController.m */,
-				F7C93E3118BF4BEB005F97B7 /* SideContentViewController.h */,
-				F7C93E3218BF4BEB005F97B7 /* SideContentViewController.m */,
-				F722CC0D18BE0F6F00E50D3B /* SideSettingViewController.h */,
-				F722CC0E18BE0F6F00E50D3B /* SideSettingViewController.m */,
-				F76316AE18C496ED0036B4A9 /* NewsWebPageViewController.h */,
-				F76316AF18C496ED0036B4A9 /* NewsWebPageViewController.m */,
-				F76689CC18BCA80D00FA6140 /* ViewController.h */,
-				F76689CD18BCA80D00FA6140 /* ViewController.m */,
-				F76316AA18C47D870036B4A9 /* PlaceDetailViewController.h */,
-				F76316AB18C47D870036B4A9 /* PlaceDetailViewController.m */,
-				F76689EC18BCA8D800FA6140 /* AddressToCoordinate.h */,
-				F76689ED18BCA8D800FA6140 /* AddressToCoordinate.m */,
+				0CBAAD0718C4C2AA006BBBD7 /* ViewControllers */,
+				0CBAACAC18C4C28C006BBBD7 /* DataSourceFiles */,
+				0CBAAC9B18C4C25E006BBBD7 /* ThirdParty */,
+				0CBAAC8B18C4C1CF006BBBD7 /* Tools */,
+				0CBAAD1A18C4C2CC006BBBD7 /* images */,
 				F76689BE18BCA80D00FA6140 /* Supporting Files */,
-				F722CBCE18BD91B200E50D3B /* IceCreamReader.h */,
-				F722CBCF18BD91B200E50D3B /* IceCreamReader.m */,
 			);
 			path = TaiwenIceCream;
 			sourceTree = "<group>";
@@ -421,17 +581,6 @@
 				F76689DF18BCA80D00FA6140 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F7C93E4918BF6256005F97B7 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F7C93E4A18BF6256005F97B7 /* SVProgressHUD-Prefix.pch */,
-				F7C93E4B18BF6256005F97B7 /* SVProgressHUD.bundle */,
-				F7C93E4C18BF6256005F97B7 /* SVProgressHUD.h */,
-				F7C93E4D18BF6256005F97B7 /* SVProgressHUD.m */,
-			);
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -510,55 +659,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F722CBAE18BD8E8D00E50D3B /* family-ice-13.txt in Resources */,
+				0CBAACF018C4C28C006BBBD7 /* 711-icecream-22.txt in Resources */,
+				0CBAACEA18C4C28C006BBBD7 /* 711-icecream-16.txt in Resources */,
+				0CBAACEB18C4C28C006BBBD7 /* 711-icecream-17.txt in Resources */,
+				0CBAACE118C4C28C006BBBD7 /* 711-icecream-07.txt in Resources */,
+				0CBAACDD18C4C28C006BBBD7 /* 711-icecream-03.txt in Resources */,
+				0CBAACF918C4C28C006BBBD7 /* family-ice-09.txt in Resources */,
+				0CBAACEE18C4C28C006BBBD7 /* 711-icecream-20.txt in Resources */,
+				0CBAACE318C4C28C006BBBD7 /* 711-icecream-09.txt in Resources */,
+				0CBAACF418C4C28C006BBBD7 /* family-ice-04.txt in Resources */,
+				0CBAACDB18C4C28C006BBBD7 /* 711-icecream-01.txt in Resources */,
+				0CBAACAA18C4C25E006BBBD7 /* SVProgressHUD.bundle in Resources */,
+				0CBAACE618C4C28C006BBBD7 /* 711-icecream-12.txt in Resources */,
+				0C04522C18C4E4700039345C /* FamilyMart_20.png in Resources */,
+				0CBAACF718C4C28C006BBBD7 /* family-ice-07.txt in Resources */,
+				0CBAACF218C4C28C006BBBD7 /* family-ice-02.txt in Resources */,
+				0CBAAD1C18C4C2CC006BBBD7 /* ice_cream.jpg in Resources */,
+				0C04522B18C4E4700039345C /* 7-11_40.png in Resources */,
+				0CBAACFF18C4C28C006BBBD7 /* family-ice-15.txt in Resources */,
+				0CBAACFB18C4C28C006BBBD7 /* family-ice-11.txt in Resources */,
+				0CBAACEC18C4C28C006BBBD7 /* 711-icecream-18.txt in Resources */,
+				0CBAACEF18C4C28C006BBBD7 /* 711-icecream-21.txt in Resources */,
+				0CBAAD0618C4C28C006BBBD7 /* family-ice-22.txt in Resources */,
+				0CBAACFC18C4C28C006BBBD7 /* family-ice-12.txt in Resources */,
+				0CBAACDE18C4C28C006BBBD7 /* 711-icecream-04.txt in Resources */,
+				0C04523818C4EC6C0039345C /* heading.png in Resources */,
+				0CBAACE418C4C28C006BBBD7 /* 711-icecream-10.txt in Resources */,
+				0CBAACDC18C4C28C006BBBD7 /* 711-icecream-02.txt in Resources */,
+				0CBAACF518C4C28C006BBBD7 /* family-ice-05.txt in Resources */,
+				0CBAACFA18C4C28C006BBBD7 /* family-ice-10.txt in Resources */,
+				0CBAAD0118C4C28C006BBBD7 /* family-ice-17.txt in Resources */,
 				F76689D018BCA80D00FA6140 /* Images.xcassets in Resources */,
-				F722CBB518BD8E8D00E50D3B /* family-ice-20.txt in Resources */,
-				F722CBB318BD8E8D00E50D3B /* family-ice-18.txt in Resources */,
-				F722CBB118BD8E8D00E50D3B /* family-ice-16.txt in Resources */,
-				F722CBAB18BD8E8D00E50D3B /* family-ice-10.txt in Resources */,
-				F722CBC718BD8E8D00E50D3B /* 711-icecream-16.txt in Resources */,
-				F722CBC118BD8E8D00E50D3B /* 711-icecream-10.txt in Resources */,
-				F722CBBB18BD8E8D00E50D3B /* 711-icecream-04.txt in Resources */,
-				F722CBAC18BD8E8D00E50D3B /* family-ice-11.txt in Resources */,
-				F722CBB418BD8E8D00E50D3B /* family-ice-19.txt in Resources */,
-				F722CBBA18BD8E8D00E50D3B /* 711-icecream-03.txt in Resources */,
-				F722CBC618BD8E8D00E50D3B /* 711-icecream-15.txt in Resources */,
-				F722CBA818BD8E8D00E50D3B /* family-ice-07.txt in Resources */,
-				F722CBA618BD8E8D00E50D3B /* family-ice-05.txt in Resources */,
-				F722CBA918BD8E8D00E50D3B /* family-ice-08.txt in Resources */,
-				F722CBA318BD8E8D00E50D3B /* family-ice-02.txt in Resources */,
-				F722CBC418BD8E8D00E50D3B /* 711-icecream-13.txt in Resources */,
-				F722CBCC18BD8E8D00E50D3B /* 711-icecream-21.txt in Resources */,
-				F722CBB018BD8E8D00E50D3B /* family-ice-15.txt in Resources */,
-				F722CBBF18BD8E8D00E50D3B /* 711-icecream-08.txt in Resources */,
-				F722CBC518BD8E8D00E50D3B /* 711-icecream-14.txt in Resources */,
-				F722CBBD18BD8E8D00E50D3B /* 711-icecream-06.txt in Resources */,
-				F722CBAF18BD8E8D00E50D3B /* family-ice-14.txt in Resources */,
-				F722CBC918BD8E8D00E50D3B /* 711-icecream-18.txt in Resources */,
-				F722CBAA18BD8E8D00E50D3B /* family-ice-09.txt in Resources */,
-				F722CBB918BD8E8D00E50D3B /* 711-icecream-02.txt in Resources */,
-				F722CBBC18BD8E8D00E50D3B /* 711-icecream-05.txt in Resources */,
-				F722CBBE18BD8E8D00E50D3B /* 711-icecream-07.txt in Resources */,
-				F722CBC818BD8E8D00E50D3B /* 711-icecream-17.txt in Resources */,
-				F722CBC318BD8E8D00E50D3B /* 711-icecream-12.txt in Resources */,
-				F722CBA218BD8E8D00E50D3B /* family-ice-01.txt in Resources */,
-				F76316A918C47D520036B4A9 /* ice_cream.jpg in Resources */,
-				F722CBB718BD8E8D00E50D3B /* family-ice-22.txt in Resources */,
+				0CBAAD0318C4C28C006BBBD7 /* family-ice-19.txt in Resources */,
+				0CBAAD0018C4C28C006BBBD7 /* family-ice-16.txt in Resources */,
+				0CBAACFD18C4C28C006BBBD7 /* family-ice-13.txt in Resources */,
+				0CBAACE018C4C28C006BBBD7 /* 711-icecream-06.txt in Resources */,
+				0CBAACF118C4C28C006BBBD7 /* family-ice-01.txt in Resources */,
+				0CBAACE918C4C28C006BBBD7 /* 711-icecream-15.txt in Resources */,
+				0CBAACED18C4C28C006BBBD7 /* 711-icecream-19.txt in Resources */,
+				0CBAACF818C4C28C006BBBD7 /* family-ice-08.txt in Resources */,
 				F76689C218BCA80D00FA6140 /* InfoPlist.strings in Resources */,
-				F722CBCD18BD8E8D00E50D3B /* 711-icecream-22.txt in Resources */,
-				F722CBB818BD8E8D00E50D3B /* 711-icecream-01.txt in Resources */,
-				F722CBC218BD8E8D00E50D3B /* 711-icecream-11.txt in Resources */,
-				F722CBA718BD8E8D00E50D3B /* family-ice-06.txt in Resources */,
-				F722CBAD18BD8E8D00E50D3B /* family-ice-12.txt in Resources */,
-				F722CBC018BD8E8D00E50D3B /* 711-icecream-09.txt in Resources */,
-				F722CBB218BD8E8D00E50D3B /* family-ice-17.txt in Resources */,
-				F722CBCB18BD8E8D00E50D3B /* 711-icecream-20.txt in Resources */,
+				0CBAACE218C4C28C006BBBD7 /* 711-icecream-08.txt in Resources */,
+				0CBAACE818C4C28C006BBBD7 /* 711-icecream-14.txt in Resources */,
+				0CBAACDF18C4C28C006BBBD7 /* 711-icecream-05.txt in Resources */,
+				0CBAACFE18C4C28C006BBBD7 /* family-ice-14.txt in Resources */,
+				0CBAACE718C4C28C006BBBD7 /* 711-icecream-13.txt in Resources */,
+				0C04523018C4E8770039345C /* 7-11_50.png in Resources */,
 				F76689CB18BCA80D00FA6140 /* Main.storyboard in Resources */,
-				F7C93E4E18BF6256005F97B7 /* SVProgressHUD.bundle in Resources */,
-				F722CBA518BD8E8D00E50D3B /* family-ice-04.txt in Resources */,
-				F722CBA418BD8E8D00E50D3B /* family-ice-03.txt in Resources */,
-				F722CBB618BD8E8D00E50D3B /* family-ice-21.txt in Resources */,
-				F722CBCA18BD8E8D00E50D3B /* 711-icecream-19.txt in Resources */,
+				0CBAAD0418C4C28C006BBBD7 /* family-ice-20.txt in Resources */,
+				0CBAACE518C4C28C006BBBD7 /* 711-icecream-11.txt in Resources */,
+				0CBAACF318C4C28C006BBBD7 /* family-ice-03.txt in Resources */,
+				0CBAACF618C4C28C006BBBD7 /* family-ice-06.txt in Resources */,
+				0CBAAD0218C4C28C006BBBD7 /* family-ice-18.txt in Resources */,
+				0C04523718C4EC6C0039345C /* heading_bw.png in Resources */,
+				0C04522F18C4E8770039345C /* FamilyMart_50.png in Resources */,
+				0CBAAD0518C4C28C006BBBD7 /* family-ice-21.txt in Resources */,
+				0C04524118C4F3FE0039345C /* reload_blue 拷貝.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,22 +733,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBAACA918C4C25E006BBBD7 /* UIViewController+JASidePanel.m in Sources */,
+				0CBAAC9418C4C1CF006BBBD7 /* AddressToCoordinate.m in Sources */,
+				0CBAAD1418C4C2AA006BBBD7 /* BaseViewController.m in Sources */,
+				0C04523F18C4EE450039345C /* TPPropertyAnimation.m in Sources */,
 				F7C93E5218BF6301005F97B7 /* Data.m in Sources */,
-				F722CC0F18BE0F6F00E50D3B /* SideSettingViewController.m in Sources */,
-				F7C93E5618BF6A9A005F97B7 /* NSDate+Calculations.m in Sources */,
-				F7C93E3318BF4BEB005F97B7 /* SideContentViewController.m in Sources */,
-				F7C93E3618BF5B8A005F97B7 /* ParseCommon.m in Sources */,
-				F722CC1218BE102C00E50D3B /* BaseViewController.m in Sources */,
-				F76689CE18BCA80D00FA6140 /* ViewController.m in Sources */,
-				F7C93E4F18BF6256005F97B7 /* SVProgressHUD.m in Sources */,
-				F76689EE18BCA8D800FA6140 /* AddressToCoordinate.m in Sources */,
-				F76316AC18C47D870036B4A9 /* PlaceDetailViewController.m in Sources */,
-				F722CC0B18BE0F3E00E50D3B /* JASidePanelController.m in Sources */,
-				F722CBD018BD91B200E50D3B /* IceCreamReader.m in Sources */,
+				0CBAAC9618C4C1CF006BBBD7 /* NSDate+Calculations.m in Sources */,
+				0CBAAD1518C4C2AA006BBBD7 /* NewsWebPageViewController.m in Sources */,
+				0CBAACAB18C4C25E006BBBD7 /* SVProgressHUD.m in Sources */,
+				0C04522218C4CF960039345C /* ADViewController.m in Sources */,
 				F76689C818BCA80D00FA6140 /* AppDelegate.m in Sources */,
-				F76316B018C496ED0036B4A9 /* NewsWebPageViewController.m in Sources */,
 				F76689C418BCA80D00FA6140 /* main.m in Sources */,
-				F722CC0C18BE0F3E00E50D3B /* UIViewController+JASidePanel.m in Sources */,
+				0CBAAD1918C4C2AA006BBBD7 /* ViewController.m in Sources */,
+				0CBAAD1818C4C2AA006BBBD7 /* SideSettingViewController.m in Sources */,
+				0CBAAD1618C4C2AA006BBBD7 /* PlaceDetailViewController.m in Sources */,
+				0CBAACA818C4C25E006BBBD7 /* JASidePanelController.m in Sources */,
+				0CBAAC9A18C4C216006BBBD7 /* IceCreamReader.m in Sources */,
+				0C04523E18C4EE450039345C /* KAProgressLabel.m in Sources */,
+				0CBAAD1718C4C2AA006BBBD7 /* SideContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,16 +875,31 @@
 		F76689E718BCA80D00FA6140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream/ThirdParty/**",
+					/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream/ThirdParty,
 					"$(inherited)",
-					"/Users/dtseng/Documents/iOS\\ Workspace/DTGit/TaiwenIceCream/TaiwenIceCream",
+					/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -734,16 +907,31 @@
 		F76689E818BCA80D00FA6140 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream/ThirdParty/**",
+					/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream/ThirdParty,
 					"$(inherited)",
-					"/Users/dtseng/Documents/iOS\\ Workspace/DTGit/TaiwenIceCream/TaiwenIceCream",
+					/Users/injay/Documents/Github/iOS/TaiwenIceCream/TaiwenIceCream,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaiwenIceCream/TaiwenIceCream-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "TaiwenIceCream/TaiwenIceCream-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/**";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

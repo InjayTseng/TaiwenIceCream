@@ -18,6 +18,8 @@ typedef void(^INTBLOCK)(int x);
 
 +(NSString*)nextVoteTime;
 +(void)fetchData;
++(void)fetchDataWithBlock:(XBLOCK)block;
+
 +(BOOL)canVote;
 
 

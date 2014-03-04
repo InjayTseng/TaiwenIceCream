@@ -54,6 +54,40 @@ return _sharedObject;
 
 }
 
++(void)fetchDataWithBlock:(XBLOCK)block{
+
+    
+    __block int count = 0;
+    count = 0;
+    
+    [self getPopularityByName:@"7-11" andComplete:^(int x) {
+        
+        [[Data sharedManager] setSevenPopularity:x];
+        NSLog(@"Got %d from 7-11.",x);
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"FinishedFetchingData" object:nil ];
+        ++count;
+        if (count==2) {
+            block();
+        }
+    }];
+    
+    [self getPopularityByName:@"FamilyMart" andComplete:^(int x) {
+        
+        [[Data sharedManager] setFamilyPopularity:x];
+        NSLog(@"Got %d from FamilyMart",x);
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"FinishedFetchingData" object:nil ];
+        ++count;
+        if (count==2) {
+            block();
+        }
+    }];
+    
+    
+
+}
+
+
+
 +(BOOL)canVote{
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
