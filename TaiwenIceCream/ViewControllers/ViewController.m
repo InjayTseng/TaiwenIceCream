@@ -17,6 +17,7 @@
 #define SEVEN_ELEVEN 0
 #define FAMILY_MART 1
 #define TAG_BUTTON 9001
+#define NEARBY_DISTANCE 0.8
 
 @interface ViewController () <MKMapViewDelegate>
 @property (strong, nonatomic) IBOutlet MKMapView *mpView;
@@ -67,7 +68,13 @@
         });
     };
     
-
+    UIImageView *image;
+    UIImage *image1=[UIImage imageNamed:@"name.jpg"];
+    image=[[UIImageView alloc]initWithImage:image1];
+    image.frame=CGRectMake(0,0,320,400);
+    
+    
+    //navigationbar.titleview=image;
     
 
 }
@@ -124,16 +131,75 @@
     [self.siteArray addObjectsFromArray:iceCreamArrayFamily];
 }
 
+
+-(void)pinOnlyNearBySites{
+
+    [self.mpView removeAnnotations:self.mpView.annotations];
+    [self.siteArray removeAllObjects];
+    
+    NSArray * iceCreamArray711 = [IceCreamReader arrayFrom711All];
+    for (IceCreamSite * site in iceCreamArray711){
+        
+        double dis = [self distance:site.location between:self.mpView.userLocation.coordinate];
+        
+        if ( dis < NEARBY_DISTANCE ) {
+            site.type = @"7-11";
+            MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+            [annotation setCoordinate:site.location];
+            [annotation setTitle:@"7-11"];
+            [annotation setSubtitle:site.name];
+            [self.mpView addAnnotation:annotation];
+            [self.siteArray addObject:site];
+        }
+    }
+
+    NSArray * iceCreamArrayFamily = [IceCreamReader arrayFromFamilyMartAll];
+    for (IceCreamSite * site in iceCreamArrayFamily){
+        double dis = [self distance:site.location between:self.mpView.userLocation.coordinate];
+        
+        if ( dis < NEARBY_DISTANCE ) {
+            site.type = @"Family Mart";
+            MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+            [annotation setCoordinate:site.location];
+            [annotation setTitle:@"Family Mart"];
+            [annotation setSubtitle:[NSString stringWithFormat:@"%@",site.name]];
+            [self.mpView addAnnotation:annotation];
+            [self.siteArray addObject:site];
+        }
+    }
+    
+}
+
+
+-(double)distance:(CLLocationCoordinate2D)loc1 between:(CLLocationCoordinate2D)loc2{
+
+
+    double x = loc1.latitude-loc2.latitude;
+    double y = loc1.longitude-loc2.longitude;
+    double z = x*x + y*y;
+    z = sqrt(z);
+    
+    return z;
+}
+
+
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
 
+    if (!self.isFirstTimeReload) {
+        if (userLocation.location.coordinate.longitude != 0.) {
+
+            [self pinOnlyNearBySites];
+        }
+    }
     
     if (!self.isFirstTimeReload) {
+        
+        
         self.isFirstTimeReload= YES;
         MKCoordinateRegion newRegion;
         newRegion.center = self.mpView.userLocation.coordinate;
         newRegion.span.latitudeDelta = 0.02;
         newRegion.span.longitudeDelta = 0.02;
-        
         [self.mpView setRegion:newRegion animated:YES];
     }
 
@@ -182,23 +248,14 @@
 -(void)annotaionViewClicked:(id)sender{
     
     UIButton *btn = sender;
-    //    NSLog(@"sender %@",btn.restorationIdentifier);
     IceCreamSite *site = [self searchSiteByTitle:btn.restorationIdentifier];
-    //[self navigatesToDetailbySite:site];
-    NSLog(@"Go to %@",site.name);
-    
     if (site) {
-        
         PlaceDetailViewController *dv = [self.storyboard instantiateViewControllerWithIdentifier:@"PlaceDetailViewController"];
         [dv setCurrentSite:site];
         [self.navigationController pushViewController:dv animated:YES];
-        
     }else{
-    
         [SVProgressHUD showErrorWithStatus:@"無法開啟"];
-        
     }
-    
 }
 
 -(IceCreamSite*)searchSiteByTitle:(NSString*)name{

@@ -13,8 +13,6 @@
 
 @interface PlaceDetailViewController ()
 
-@property (nonatomic, strong) NSMutableArray *photos;
-@property (nonatomic, strong) NSMutableArray *thumbs;
 @property (strong, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
@@ -34,9 +32,6 @@
 {
     [super viewDidLoad];
 
-    
-//    NSLog(@"%@",[self.currentVenue dictionaryRepresentation]);
-//    NSLog(@"%@ %@ ",[[self.currentVenue contact] link],[[self.currentVenue contact] phone]);
     if (!self.currentSite.phone) {
         self.btnCall.alpha = 0.3;
         self.btnCall.enabled = FALSE;
@@ -47,9 +42,9 @@
         [self.btnCall setTitle:callshow forState:UIControlStateNormal];
         
     }
-    
     self.navigationItem.title = self.currentSite.name;
     self.lbCategory.text = self.currentSite.type;
+
     [self.imgView setFrame:CGRectMake(0, 0, 320, 700)];
     [self mapSetting];
     [self buttonDisplay];
@@ -122,7 +117,7 @@
     if ([self.currentSite.type isEqualToString:@"7-11"]) {
 
         NewsWebPageViewController* nv = [self.storyboard instantiateViewControllerWithIdentifier:@"NewsWebPageViewController"];
-        [nv setUrl:@"http://www.7-11.com.tw/event1/13icecream/index.html#b"];
+        [nv setUrl:@"http://www.7-11.com.tw/event1/13icecream/index.html"];
             ;
         [self.navigationController pushViewController:nv animated:YES];
     }else{

@@ -18,6 +18,17 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     [Data fetchData];
+    [[UIBarButtonItem appearance] setTintColor:[UIColor colorWithRed:246./255. green:152./255. blue:157./255. alpha:1.0]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:90./255. green:208./255. blue:247./255 alpha:0.7]];
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor whiteColor];
+    shadow.shadowOffset = CGSizeMake(1, 1);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor darkGrayColor], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont boldSystemFontOfSize:23.], NSFontAttributeName, nil]];
+    
+
     
     return YES;
 }
